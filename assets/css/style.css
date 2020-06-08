@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700');
+@import url('https://fonts.googleapis.com/css?family=Lora:100,200,300,400,500,600,700|Open+Sans+Condensed:100,200,300,400,500,600,700');
 
 /*--------------------------------------------Colors*/
 
@@ -41,7 +41,7 @@
 }
 
 .section-heading {
-    font-family: "Exo", sans-serif;
+    font-family: "Lora", sans-serif;
     font-weight: 300;
     margin-top: 25px;
     margin-bottom: 40px;
@@ -62,7 +62,7 @@ h4 {
 }
 
 .general-sub {
-    font-family: "Exo", sans-serif;
+    font-family: "Lora", sans-serif;
     font-weight: 300;
     color: #fafafa;
 }
@@ -82,7 +82,7 @@ h4 {
 }
 
 .section-heading {
-    font-family: "Exo", sans-serif;
+    font-family: "Lora", sans-serif;
     font-weight: 300;
     margin-top: 25px;
     margin-bottom: 40px;
@@ -110,7 +110,7 @@ header {
 }
 
 .name {
-    font-family: "Exo", sans-serif;
+    font-family: "Lora", sans-serif;
     font-weight: 100;
     font-size: 46px;
     margin-top: 50px;
@@ -244,7 +244,7 @@ footer {
     margin-bottom: 15px;
 }
 
-/* ----------------------------------------Personal Info */
+/* ----------------------------------------Side Section */
 
 .side-section-item {
     margin-bottom: 20px;
@@ -273,6 +273,11 @@ footer {
 .side-section-item .key p {
     font-weight: 700;
 }
+
+.side-shiny-list {
+    list-style: none;
+}
+
 
 /*
 .side-section-item .value {
