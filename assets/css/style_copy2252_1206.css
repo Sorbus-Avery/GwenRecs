@@ -184,10 +184,6 @@ header {
   text-align: center;
 }
 
-.side-section-category {
-    text-align: center;
-}
-
 /*--------------------------------------------Hover*/
 
 .hvr-sweep-to-bottom:before {
@@ -201,8 +197,6 @@ header {
                                                                                         When not menu that stays at top of screen and moves with it with 3 lines*/
 
 /* Dropdown Button */                                                       /* look at changing measurements, check last msp review*/
-                                                                                    /*
-
 .dropbtn {
   background-color: #4caf50;
   padding: 16px;
@@ -210,34 +204,32 @@ header {
   min-width: 175px;
   min-height: 50px;
 }
-                                                                                    /*
+
 .dropbtn a {
     color: #e84610;
     min-width: 175px;
     font-size: 20px;
     min-height: 50px;
 
-}                                                                                    /*
+}
 .dropbtn a:hover {
     color: #10e8d6;
     text-decoration: none;
 
 }
                                                                     /* look at changing size of fa-caret-down or changing to + - on the collapsible menu */
-                                                                                    /*
-
 .fa-caret-down {
   color: #9b59b6;
   float: right;
 }
-                                                                                    
-/* The container <div> - needed to position the dropdown content */                 /*
+
+/* The container <div> - needed to position the dropdown content */
 .dropdown {
   position: relative;
   display: inline-block;
 }
 
-/* Dropdown Content (Hidden by Default) */                               /*
+/* Dropdown Content (Hidden by Default) */
 .dropdown-content {
   display: none;
   position: absolute;
@@ -279,12 +271,12 @@ header {
   background-color: rgb(179, 14, 14);
 }
 
-/* Show the dropdown menu on hover */           /*
-.dropdown:hover .dropdown-content { 
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
   display: block;
-}                                                       
+}
 
-/* Change the background color of the dropdown button when the dropdown content is shown 
+/* Change the background color of the dropdown button when the dropdown content is shown */
 .dropdown:hover .dropbtn {
   background-color: #463e8e;
 }
