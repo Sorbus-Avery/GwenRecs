@@ -184,6 +184,7 @@ header {
   margin-bottom: 0;
   text-align: left;
   font-family: "Open Sans Condensed", sans-serif;                       /*Note: Think about changing secondary font*/
+  font-size: larger;
 }
 .side-list-item:hover {
   list-style: none;
@@ -192,11 +193,12 @@ header {
 }
 .side-section-category {
     text-align: left;
-    margin-top: 5px;
+    padding-top: 5px;
     padding-bottom: 5px;
     background-color:#9b59b6;
     font-size: larger;
     font-family: "Lora", sans-serif;
+
 }
 
 .side-section-category:hover {
@@ -206,6 +208,21 @@ header {
 .fa-angle-down {
     float: right;
     color:cornsilk;
+    padding-right: 5px;
+}
+.side-link {
+    color: cornsilk;
+}
+.side-link:hover {
+    color: rgb(5, 6, 8);
+    text-decoration: none;
+}
+.side-sub-link {
+    color: rgb(73, 18, 69);
+}
+.side-sub-link:hover {
+    color: rgb(36, 126, 81);
+    text-decoration: none;
 }
 
 /*--------------------------------------------Hover*/
