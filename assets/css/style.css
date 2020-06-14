@@ -26,7 +26,6 @@ body{
   background-color: #2e3e1291;
 }
 
-
 /* ----------------------------------------Special paddings/margins/text */
 
 h1,
@@ -76,8 +75,10 @@ header {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    width: auto;
-    background-color: #fbf2c969;
+    background-color: #fbf2c971;
+}
+.logo:hover {
+    background-color: #fbf2c9b0;
 }
 
 .name {
@@ -259,4 +260,19 @@ footer {
   background-color: #63491db8;
   width: fit-content;
 
+}
+
+/*-----------------------------------------------------------Serious shinies */
+
+.serious-heading {
+    text-align: center;
+}
+
+/*-----------------------------------------------------------Current*/
+.current-page-list{
+  background-color: #c7b488;
+}
+.current-page-category{ 
+  background-color:#63491d;
+  color:#7fff00;               
 }
