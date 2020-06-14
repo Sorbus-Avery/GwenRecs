@@ -1,46 +1,31 @@
 @import url("https://fonts.googleapis.com/css?family=Lora:100,200,300,400,500,600,700|Open+Sans+Condensed:100,200,300,400,500,600,700");
 
+/*--------------------------------------------Images*/
+
+
 
 /*--------------------------------------------Colors*/
 
+body{
+    background: url("../images/forestpath.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100%;
+}
 
 .bg-color-name-title {
-  background-color: #676767;
+  background-color: #63491db8;
 }
 
-.bg-color-three-reasons {
-  background-color: #fff;
-}
+                                                /*.bg-color-main-section {
+  background-color:#659961;
+}                                                                                   */
 
 .bg-color-side-section {
-  background-color: #7c7a7a;
+  background-color: #2e3e1291;
 }
 
-.ui-menu-color-home {
-  background-color: #e67e22;
-}
-
-.ui-menu-color-fun-shinies {
-  background-color: #9b59b6;
-}
-
-.ui-menu-color-serious-shinies {
-  background-color: #3498db;
-}
-
-.ui-menu-color-contact {
-  background-color: #525252;
-}
-
-.row-table {
-  display: table;
-}
-
-.section-column {
-  display: table-cell;
-  padding: 0 30px 30px;
-  float: none;
-}
 
 /* ----------------------------------------Special paddings/margins/text */
 
@@ -58,37 +43,23 @@ h4 {
 .general-sub {
   font-family: "Lora", sans-serif;
   font-weight: 300;
-  color: #fafafa;
+  color: cornsilk;
 }
 
 .inline-block {
   display: inline-block;
 }
-
+/*
 .row-table {
   display: table;
 }
-
+*/
 .section-column {
   display: table-cell;
   padding: 0 30px 30px;
   float: none;
 }
 
-.section-heading {
-  font-family: "Lora", sans-serif;
-  font-weight: 300;
-  margin-top: 25px;
-  margin-bottom: 40px;
-}
-.side-section-heading {
-  color:cornsilk;
-  text-align:center;
-  font-family: "Lora", sans-serif;
-  font-weight: 300;
-  margin-top: 25px;
-  margin-bottom: 40px;
-}
 
 /*--------------------------------------------Heading*/
 
@@ -101,14 +72,12 @@ header {
 }
 
 .logo {
-  background: url("../images/rosie.jpg");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  min-height: 360px;
-  transition: all 0.5s ease-in-out;
-  -moz-transition: all 0.5s ease-in-out;
-  -webkit-transition: all 0.5s ease-in-out;
+    background: url("../images/crow3.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: auto;
+    background-color: #fbf2c969;
 }
 
 .name {
@@ -116,93 +85,38 @@ header {
   font-weight: 100;
   font-size: 46px;
   margin-top: 50px;
-  color: #fff;
+  color: cornsilk;
+  background-color: #2e3e1291;
+  width: fit-content;
 }
 
 .title {
-  font-family: "Roboto", sans-serif;
+  font-family: "Open Sans Condensed", sans-serif;
   font-weight: 200;
   font-size: 28px;
   margin-top: 20px;
   margin-bottom: 90px;
-  color: #fff;
+  color: cornsilk;
+  background-color: #2e3e1291;
+  width: fit-content;
 }
 
-.list-inline-item:not(:last-child) {
-  margin: 0;
-}
-
-.menucontainer {
-  font-size: 0;
-}
-
-#nav li {
-  font-size: 14px;
-  padding: 0;
-}
-
-#nav {
-  margin: 0;
-}
-
-.menuitem {
-  height: 120px;
-  text-align: center;
-  padding: 0;
-}
-
-.menuitem a {
-  width: 100%;
-  text-decoration: none;
-  color: #fff;
-  height: 120px;
-}
-
-.menuitem a i {
-  padding-top: 22px;
-  display: block;
-  color: #fafafa;
-  font-size: 26px;
-}
-
-.menuitem span {
-  display: block;
-  width: 100%;
-  padding-top: 5px;
-  text-align: center;
-  text-transform: uppercase;
-  font-size: 14px;
-  font-weight: 300;
-  letter-spacing: 2px;
-}
 
 /*--------------------------------------------Side*/
-.side-list-item {
-  list-style: none;
-  background-color: chartreuse;
-  color: orchid;
-  margin-bottom: 0;
-  text-align: left;
-  font-family: "Open Sans Condensed", sans-serif;                       /*Note: Think about changing secondary font*/
-  font-size: larger;
-}
-.side-list-item:hover {
-  list-style: none;
-  background-color: orchid;
-  color: chartreuse;
-}
+
 .side-section-category {
     text-align: left;
     padding-top: 5px;
     padding-bottom: 5px;
-    background-color:#9b59b6;
+    background-color:#63491d8a;               /* #6a861ab3;  #334f3a4f */
+    color: cornsilk;
     font-size: larger;
     font-family: "Lora", sans-serif;
-
 }
 
 .side-section-category:hover {
-    background-color:#da701a;
+    background-color:#364815;                               /*Note: consider keeping the more dynamic: #58151b;*/
+    color: cornsilk;
 }
 
 .fa-angle-down {
@@ -210,20 +124,53 @@ header {
     color:cornsilk;
     padding-right: 5px;
 }
+.side-list-item {
+  list-style: none;
+  background-color: #b59b62a3;
+  color: #0c150f;
+  margin-bottom: 0;
+  text-align: left;
+  font-family: "Open Sans Condensed", sans-serif;                       /*Note: Think about changing secondary font*/
+  font-size: large;
+  font-weight: 600;
+}
+.side-list-item:hover {
+  list-style: none;
+                                                /*background-color: #f6bc67;*/
+  background-color:#6a861a;                             /* #f96975;*/
+  color: #0c150f;
+}
+
 .side-link {
     color: cornsilk;
 }
-.side-link:hover {
-    color: rgb(5, 6, 8);
+.side-link:hover {                                              
     text-decoration: none;
 }
-.side-sub-link {
-    color: rgb(73, 18, 69);
-}
+
 .side-sub-link:hover {
-    color: rgb(36, 126, 81);
     text-decoration: none;
 }
+
+.side-section-item {
+  display: block;
+  clear: both;
+}
+
+.side-shiny-list {
+  list-style: none;
+}
+
+.side-section-heading {
+  color:cornsilk;
+  text-align:center;
+  font-family: "Lora", sans-serif;
+  font-weight: 300;
+  margin-top: 25px;
+  margin-bottom: 40px;
+  background-color: #63491dbd;
+}
+
 
 /*--------------------------------------------Hover*/
 
@@ -234,28 +181,13 @@ header {
 
 
 
-/* ------------------------------------------Footer */
+/* ------------------------------------------Footer */                               /*Note: Work this*/
 
 footer {
-  background-color: #525252;
-  color: #fafafa;
+  background-color: #38290fb8;
+  color: cornsilk;
   min-height: 120px;
   margin: 0;
-}
-
-.cv-pdf i {
-  font-size: 18px;
-  color: #fafafa;
-  text-align: center;
-  padding-left: 5px;
-  transition: all 0.35s ease-in-out;
-  -moz-transition: all 0.35s ease-in-out;
-  -webkit-transition: all 0.35s ease-in-out;
-  -o-transition: all 0.35s ease-in-out;
-}
-
-.cv-pdf i:hover {
-  color: #e84610;
 }
 
 .social-links {
@@ -270,8 +202,8 @@ footer {
   font-size: 13px;
   line-height: 7px;
   text-align: center;
-  color: #fafafa;
-  background: #8f8f8f;
+  color: cornsilk;
+  background: #2e3e12cf;
   transition: all 0.35s ease-in-out;
   -moz-transition: all 0.35s ease-in-out;
   -webkit-transition: all 0.35s ease-in-out;
@@ -279,31 +211,52 @@ footer {
 }
 
 .social-links li a i:hover {
-  background: #e84610;
+  background: #6a861a;
 }
 
 #footer-details {
   padding: 20px;
 }
 
-/* ----------------------------------------Three Reasons */
-
-.three-reasons-icon {
-  font-size: 26px;
-  color: #e67e22;
+.footer-link {
+    text-decoration: none;
 }
 
-.three-reasons-heading {
+.footer-link:hover {
+    text-decoration: none;
+    color: cornsilk;
+    background-color: #2e3e1291;
+}
+
+.footer-para {
+    text-decoration: none;
+    color: cornsilk;
+}
+
+
+/* ----------------------------------------Main Section Nest/Home */
+
+.main-section-heading {
   margin-bottom: 15px;
+  background-color: #63822ab8;
+  color: cornsilk;
+  font-family: "Lora", sans-serif;
 }
 
-/* ----------------------------------------Side Section */
-
-.side-section-item {
-  display: block;
-  clear: both;
+.main-section-para{
+    background-color:#b7b04ad4;
+    color:Black;
+    padding: 5px;
+    text-align: justify;
 }
 
-.side-shiny-list {
-  list-style: none;
+.section-heading {
+  font-family: "Lora", sans-serif;
+  font-weight: 300;
+  margin-top: 25px;
+  margin-bottom: 40px;
+  color: cornsilk;
+  background-color: #63491db8;
+  width: fit-content;
+
 }
