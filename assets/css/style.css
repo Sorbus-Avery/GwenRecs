@@ -72,7 +72,7 @@ header {
 
 .logo {
     background: url("../images/crow3.png");
-    background-position: center;
+    background-position: top;
     background-repeat: no-repeat;
     background-size: cover;
     background-color: #fbf2c971;
@@ -242,6 +242,7 @@ footer {
   background-color: #63822ab8;
   color: cornsilk;
   font-family: "Lora", sans-serif;
+  padding: 5px;
 }
 
 .main-section-para{
@@ -249,6 +250,7 @@ footer {
     color:Black;
     padding: 5px;
     text-align: justify;
+    padding: 5px;
 }
 
 .section-heading {
@@ -259,6 +261,7 @@ footer {
   color: cornsilk;
   background-color: #63491db8;
   width: fit-content;
+  padding: 5px;
 
 }
 
@@ -266,6 +269,16 @@ footer {
 
 .serious-heading {
     text-align: center;
+    margin-right: 0px;
+}
+.serious-section {
+  font-family: "Lora", sans-serif;
+  font-weight: 300;
+  margin-top: 25px;
+  margin-bottom: 40px;
+  color: cornsilk;
+  background-color: #63491db8;
+ /* width: ;               */
 }
 
 /*-----------------------------------------------------------Current*/
