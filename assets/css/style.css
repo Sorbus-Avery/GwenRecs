@@ -1,26 +1,24 @@
-@import url("https://fonts.googleapis.com/css?family=Lora:100,200,300,400,500,600,700|Open+Sans+Condensed:100,200,300,400,500,600,700");
+@import url("https://fonts.googleapis.com/css?family=Lora:100,200,300,400,500,600,700|Open+Sans:100,200,300,400,500,600,700");
 
 /*--------------------------------------------Images*/
 
+/*--------------------------------------------Colors and backgrounds*/
 
-
-/*--------------------------------------------Colors*/
-
-body{
-    background: url("../images/forestpath.jpg");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    min-height: 100%;
+body {
+  background: url("../images/forestpath.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 100%;
 }
 
 .bg-color-name-title {
   background-color: #63491db8;
 }
 
-                                                /*.bg-color-main-section {
-  background-color:#659961;
-}                                                                                   */
+.bg-color-main-section {
+  background-color: #bba84975;
+}
 
 .bg-color-side-section {
   background-color: #2e3e1291;
@@ -59,7 +57,6 @@ h4 {
   float: none;
 }
 
-
 /*--------------------------------------------Heading*/
 
 header {
@@ -70,15 +67,21 @@ header {
   margin-left: 50px;
 }
 
-.logo {
-    background: url("../images/crow3.png");
-    background-position: top;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-color: #fbf2c971;
+.crowlogo {
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  max-height: 400px;
+  max-width: 400px;
 }
-.logo:hover {
-    background-color: #fbf2c9b0;
+
+.crowlogo2 {
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  max-height: 400px;
+  max-width: 400px;
+  float: right;
 }
 
 .name {
@@ -92,7 +95,7 @@ header {
 }
 
 .title {
-  font-family: "Open Sans Condensed", sans-serif;
+  font-family: "open sans", sans-serif;
   font-weight: 200;
   font-size: 28px;
   margin-top: 20px;
@@ -102,28 +105,27 @@ header {
   width: fit-content;
 }
 
-
 /*--------------------------------------------Side*/
 
 .side-section-category {
-    text-align: left;
-    padding-top: 5px;
-    padding-bottom: 5px;
-    background-color:#63491d8a;               /* #6a861ab3;  #334f3a4f */
-    color: cornsilk;
-    font-size: larger;
-    font-family: "Lora", sans-serif;
+  text-align: left;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  background-color: #63491d8a; /* #6a861ab3;  #334f3a4f */
+  color: cornsilk;
+  font-size: larger;
+  font-family: "Lora", sans-serif;
 }
 
 .side-section-category:hover {
-    background-color:#364815;                               /*Note: consider keeping the more dynamic: #58151b;*/
-    color: cornsilk;
+  background-color: #364815; /*Note: consider keeping the more dynamic: #58151b;*/
+  color: cornsilk;
 }
 
 .fa-angle-down {
-    float: right;
-    color:cornsilk;
-    padding-right: 5px;
+  float: right;
+  color: cornsilk;
+  padding-right: 5px;
 }
 .side-list-item {
   list-style: none;
@@ -131,26 +133,26 @@ header {
   color: #0c150f;
   margin-bottom: 0;
   text-align: left;
-  font-family: "Open Sans Condensed", sans-serif;                       /*Note: Think about changing secondary font*/
+  font-family: "open sans", sans-serif; /*Note: Think about changing secondary font*/
   font-size: large;
   font-weight: 600;
 }
 .side-list-item:hover {
   list-style: none;
-                                                /*background-color: #f6bc67;*/
-  background-color:#6a861a;                             /* #f96975;*/
+  /*background-color: #f6bc67;*/
+  background-color: #6a861a; /* #f96975;*/
   color: #0c150f;
 }
 
 .side-link {
-    color: cornsilk;
+  color: cornsilk;
 }
-.side-link:hover {                                              
-    text-decoration: none;
+.side-link:hover {
+  text-decoration: none;
 }
 
 .side-sub-link:hover {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 .side-section-item {
@@ -163,15 +165,14 @@ header {
 }
 
 .side-section-heading {
-  color:cornsilk;
-  text-align:center;
+  color: cornsilk;
+  text-align: center;
   font-family: "Lora", sans-serif;
   font-weight: 300;
   margin-top: 25px;
   margin-bottom: 40px;
   background-color: #63491dbd;
 }
-
 
 /*--------------------------------------------Hover*/
 
@@ -180,9 +181,7 @@ header {
   height: 120px;
 }
 
-
-
-/* ------------------------------------------Footer */                               /*Note: Work this*/
+/* ------------------------------------------Footer */ /*Note: Work this*/
 
 footer {
   background-color: #38290fb8;
@@ -220,20 +219,19 @@ footer {
 }
 
 .footer-link {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 .footer-link:hover {
-    text-decoration: none;
-    color: cornsilk;
-    background-color: #2e3e1291;
+  text-decoration: none;
+  color: cornsilk;
+  background-color: #2e3e1291;
 }
 
 .footer-para {
-    text-decoration: none;
-    color: cornsilk;
+  text-decoration: none;
+  color: cornsilk;
 }
-
 
 /* ----------------------------------------Main Section Nest/Home */
 
@@ -245,12 +243,13 @@ footer {
   padding: 5px;
 }
 
-.main-section-para{
-    background-color:#b7b04ad4;
-    color:Black;
-    padding: 5px;
-    text-align: justify;
-    padding: 5px;
+.main-section-para {
+  background-color: #b7b04ad4;
+  color: Black;
+  padding: 5px;
+  text-align: left;
+  padding: 5px;
+  font-family: "open sans";
 }
 
 .section-heading {
@@ -262,30 +261,92 @@ footer {
   background-color: #63491db8;
   width: fit-content;
   padding: 5px;
-
+  margin-left: auto;
+  margin-right: auto;
 }
 
 /*-----------------------------------------------------------Serious shinies */
 
 .serious-heading {
-    text-align: center;
-    margin-right: 0px;
-}
-.serious-section {
+  text-align: center;
   font-family: "Lora", sans-serif;
   font-weight: 300;
   margin-top: 25px;
   margin-bottom: 40px;
   color: cornsilk;
-  background-color: #63491db8;
- /* width: ;               */
+  background-color: #63491ddb;
+  width: fit-content;
+  padding: 5px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.serious-textbox {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 300;
+  padding: 5px;
+  margin-bottom: 40px;
+  color: cornsilk;
+  background-color: #2e3e12cf;
+  font-size: larger;
+}
+
+/*-----------------------------------------------------------Fun Shinies*/
+
+.fun-heading {
+  text-align: center;
+  font-family: "Lora", sans-serif;
+  font-weight: 300;
+  margin-top: 25px;
+  margin-bottom: 40px;
+  color: cornsilk;
+  background-color: #63491ddb;
+  width: fit-content;
+  padding: 5px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.fun-textbox {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 300;
+  padding: 5px;
+  margin-bottom: 40px;
+  color: cornsilk;
+  background-color: #2e3e12cf;
+  font-size: larger;
+}
+
+/*-----------------------------------------------------------Cawntact*/
+
+.caw-heading {
+  text-align: center;
+  font-family: "Lora", sans-serif;
+  font-weight: 300;
+  margin-top: 25px;
+  margin-bottom: 40px;
+  color: cornsilk;
+  background-color: #63491ddb;
+  width: fit-content;
+  padding: 5px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.caw-textbox {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 300;
+  padding: 5px;
+  margin-bottom: 40px;
+  color: cornsilk;
+  background-color: #2e3e12cf;
+  font-size: larger;
 }
 
 /*-----------------------------------------------------------Current*/
-.current-page-list{
+.current-page-list {
   background-color: #c7b488;
 }
-.current-page-category{ 
-  background-color:#63491d;
-  color:#7fff00;               
+.current-page-category {
+  background-color: #63491d;
+  color: #7fff00;
 }
