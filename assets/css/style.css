@@ -92,6 +92,8 @@ header {
   color: cornsilk;
   background-color: #2e3e1291;
   width: fit-content;
+  border-style: outset;
+  border-color: #647d38;
 }
 
 .title {
@@ -103,9 +105,37 @@ header {
   color: cornsilk;
   background-color: #2e3e1291;
   width: fit-content;
+  border-style: outset;
+  border-color: #647d38;
+}
+
+.banner-border {
+    border-bottom-color: #271b08;
+    border-bottom-style: solid;
 }
 
 /*--------------------------------------------Side*/
+
+.side-section-heading {
+  color: cornsilk;
+  text-align: center;
+  font-family: "Lora", sans-serif;
+  font-weight: 300;
+  margin-top: 25px;
+  margin-bottom: 40px;
+  background-color: #63491dbd;
+  border-color: #3e2e12;
+  border-style: solid;
+}
+
+.col-12 {
+    padding:0;
+}
+
+.sidemenu-border {
+    border-right-style: solid;
+    border-top-color: #271b08;
+}
 
 .side-section-category {
   text-align: left;
@@ -164,14 +194,9 @@ header {
   list-style: none;
 }
 
-.side-section-heading {
-  color: cornsilk;
-  text-align: center;
-  font-family: "Lora", sans-serif;
-  font-weight: 300;
-  margin-top: 25px;
-  margin-bottom: 40px;
-  background-color: #63491dbd;
+.side-menu {  
+    border-color: #271b08;
+    border-style: solid;
 }
 
 /*--------------------------------------------Hover*/
@@ -188,6 +213,8 @@ footer {
   color: cornsilk;
   min-height: 120px;
   margin: 0;
+  border-top-color: #271b08; 
+  border-top-style: solid;
 }
 
 .social-links {
@@ -240,16 +267,20 @@ footer {
   background-color: #63822ab8;
   color: cornsilk;
   font-family: "Lora", sans-serif;
-  padding: 5px;
+  padding: 5px;  
+  border-color: #3e2e1299;
+  border-style: solid;
 }
 
 .main-section-para {
-  background-color: #b7b04ad4;
+  background-color: #e8e4a187;
   color: Black;
   padding: 5px;
   text-align: left;
   padding: 5px;
-  font-family: "open sans";
+  font-family: "open sans";  
+  border-color: #63822ab8;
+  border-style: solid;
 }
 
 .section-heading {
@@ -262,7 +293,9 @@ footer {
   width: fit-content;
   padding: 5px;
   margin-left: auto;
-  margin-right: auto;
+  margin-right: auto;  
+  border-color: #3e2e12;
+  border-style: solid;
 }
 
 /*-----------------------------------------------------------Serious shinies */
@@ -278,7 +311,9 @@ footer {
   width: fit-content;
   padding: 5px;
   margin-left: auto;
-  margin-right: auto;
+  margin-right: auto;  
+  border-color: #3e2e12;
+  border-style: solid;
 }
 .serious-textbox {
   font-family: "Open Sans", sans-serif;
@@ -287,7 +322,9 @@ footer {
   margin-bottom: 40px;
   color: cornsilk;
   background-color: #2e3e12cf;
-  font-size: larger;
+  font-size: larger;  
+  border-color: #3e2e12;
+  border-style: solid;
 }
 
 /*-----------------------------------------------------------Fun Shinies*/
@@ -303,7 +340,9 @@ footer {
   width: fit-content;
   padding: 5px;
   margin-left: auto;
-  margin-right: auto;
+  margin-right: auto;  
+  border-color: #3e2e12;
+  border-style: solid;
 }
 
 .fun-textbox {
@@ -313,7 +352,9 @@ footer {
   margin-bottom: 40px;
   color: cornsilk;
   background-color: #2e3e12cf;
-  font-size: larger;
+  font-size: larger;  
+  border-color: #3e2e12;
+  border-style: solid;
 }
 
 /*-----------------------------------------------------------Cawntact*/
@@ -329,7 +370,9 @@ footer {
   width: fit-content;
   padding: 5px;
   margin-left: auto;
-  margin-right: auto;
+  margin-right: auto;  
+  border-color: #3e2e12;
+  border-style: solid;
 }
 
 .caw-textbox {
@@ -339,7 +382,9 @@ footer {
   margin-bottom: 40px;
   color: cornsilk;
   background-color: #2e3e12cf;
-  font-size: larger;
+  font-size: larger;  
+  border-color: #3e2e12;
+  border-style: solid;
 }
 
 /*-----------------------------------------------------------Current*/
