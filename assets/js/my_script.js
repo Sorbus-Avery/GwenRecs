@@ -1,8 +1,8 @@
 //$("document").ready(function() {
-$("#nest-outer").click(function(){
-    $("#nest-inner").toggle("medium");
-    });
+$("#nest-outer").click(function () {
+  $("#nest-inner").toggle("medium");
+});
 
-$(".name").click(function(){
+$(".name").click(function () {
   $(".title").toggle();
 });

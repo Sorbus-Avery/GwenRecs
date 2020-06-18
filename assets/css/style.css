@@ -68,7 +68,6 @@ header {
   margin-right: auto;
 }
 
-
 .crowlogo {
   background-position: top;
   background-repeat: no-repeat;
@@ -112,8 +111,8 @@ header {
 }
 
 .banner-border {
-    border-bottom-color: #271b08;
-    border-bottom-style: solid;
+  border-bottom-color: #271b08;
+  border-bottom-style: solid;
 }
 
 /*--------------------------------------------Side*/
@@ -131,12 +130,12 @@ header {
 }
 
 .col-12 {
-    padding:0;
+  padding: 0;
 }
 
 .sidemenu-border {
-    border-right-style: solid;
-    border-top-color: #271b08;
+  border-right-style: solid;
+  border-top-color: #271b08;
 }
 
 .side-section-category {
@@ -196,9 +195,9 @@ header {
   list-style: none;
 }
 
-.side-menu {  
-    border-color: #271b08;
-    border-style: solid;
+.side-menu {
+  border-color: #271b08;
+  border-style: solid;
 }
 
 /*--------------------------------------------Hover*/
@@ -215,7 +214,7 @@ footer {
   color: cornsilk;
   min-height: 120px;
   margin: 0;
-  border-top-color: #271b08; 
+  border-top-color: #271b08;
   border-top-style: solid;
 }
 
@@ -269,7 +268,7 @@ footer {
   background-color: #63822ab8;
   color: cornsilk;
   font-family: "Lora", sans-serif;
-  padding: 5px;  
+  padding: 5px;
   border-color: #3e2e1299;
   border-style: solid;
 }
@@ -280,7 +279,7 @@ footer {
   padding: 5px;
   text-align: left;
   padding: 5px;
-  font-family: "open sans";  
+  font-family: "open sans";
   border-color: #63822ab8;
   border-style: solid;
 }
@@ -295,7 +294,7 @@ footer {
   width: fit-content;
   padding: 5px;
   margin-left: auto;
-  margin-right: auto;  
+  margin-right: auto;
   border-color: #3e2e12;
   border-style: solid;
 }
@@ -313,7 +312,7 @@ footer {
   width: fit-content;
   padding: 5px;
   margin-left: auto;
-  margin-right: auto;  
+  margin-right: auto;
   border-color: #3e2e12;
   border-style: solid;
 }
@@ -324,7 +323,7 @@ footer {
   margin-bottom: 40px;
   color: cornsilk;
   background-color: #2e3e12cf;
-  font-size: larger;  
+  font-size: larger;
   border-color: #3e2e12;
   border-style: solid;
 }
@@ -342,7 +341,7 @@ footer {
   width: fit-content;
   padding: 5px;
   margin-left: auto;
-  margin-right: auto;  
+  margin-right: auto;
   border-color: #3e2e12;
   border-style: solid;
 }
@@ -354,7 +353,7 @@ footer {
   margin-bottom: 40px;
   color: cornsilk;
   background-color: #2e3e12cf;
-  font-size: larger;  
+  font-size: larger;
   border-color: #3e2e12;
   border-style: solid;
 }
@@ -372,7 +371,7 @@ footer {
   width: fit-content;
   padding: 5px;
   margin-left: auto;
-  margin-right: auto;  
+  margin-right: auto;
   border-color: #3e2e12;
   border-style: solid;
 }
@@ -384,7 +383,7 @@ footer {
   margin-bottom: 40px;
   color: cornsilk;
   background-color: #2e3e12cf;
-  font-size: larger;  
+  font-size: larger;
   border-color: #3e2e12;
   border-style: solid;
 }
@@ -400,14 +399,14 @@ footer {
 
 /* ----------------------------------------Media Queries */
 
-@media(max-width: 992px) {
-    .bannerside,
-    .crowlogo2,
-    .crowlogo {
-        display: none;
-    }
-    .side-section-category,
-    .side-list-item{
-        text-align: center;
-     }}
-
+@media (max-width: 992px) {
+  .bannerside,
+  .crowlogo2,
+  .crowlogo {
+    display: none;
+  }
+  .side-section-category,
+  .side-list-item {
+    text-align: center;
+  }
+}
