@@ -90,24 +90,30 @@ header {
   font-weight: 100;
   font-size: 46px;
   margin-top: 50px;
+  margin-bottom: 20px;
   color: cornsilk;
   background-color: #2e3e1291;
   width: fit-content;
   border-style: outset;
   border-color: #647d38;
+  margin-left:auto;
+  margin-right:auto;
+  text-align: center;
 }
 
 .title {
   font-family: "open sans", sans-serif;
   font-weight: 200;
   font-size: 28px;
-  margin-top: 20px;
-  margin-bottom: 90px;
+  margin-bottom: 75px;
   color: cornsilk;
   background-color: #2e3e1291;
   width: fit-content;
   border-style: outset;
   border-color: #647d38;
+  margin-left:auto;
+  margin-right:auto;
+  text-align: center;
 }
 
 .banner-border {
