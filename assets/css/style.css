@@ -64,23 +64,25 @@ header {
 }
 
 .heading {
-  margin-left: 50px;
+  margin-left: auto;
+  margin-right: auto;
 }
+
 
 .crowlogo {
   background-position: top;
   background-repeat: no-repeat;
   background-size: cover;
-  max-height: 400px;
-  max-width: 400px;
+  max-height: 300px;
+  max-width: 300px;
 }
 
 .crowlogo2 {
   background-position: top;
   background-repeat: no-repeat;
   background-size: cover;
-  max-height: 400px;
-  max-width: 400px;
+  max-height: 300px;
+  max-width: 300px;
   float: right;
 }
 
@@ -395,3 +397,17 @@ footer {
   background-color: #63491d;
   color: #7fff00;
 }
+
+/* ----------------------------------------Media Queries */
+
+@media(max-width: 992px) {
+    .bannerside,
+    .crowlogo2,
+    .crowlogo {
+        display: none;
+    }
+    .side-section-category,
+    .side-list-item{
+        text-align: center;
+     }}
+

@@ -1,39 +1,22 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <link
-      rel="stylesheet"
-      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css"
-      type="text/css"
-    />
-    <link
-      rel="stylesheet"
-      href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
-      type="text/css"
-    />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0-2/css/all.min.css"
-      type="text/css"
-    />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.1.1/css/hover-min.css"
-      type="text/css"
-    />
-    <link rel="stylesheet" href="assets/css/style.css" />
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+<link rel="stylesheet" href="assets/css/style.css">
+<script src="assets/js/jquery-3.5.1.js"></script>
+<script src="assets/js/my_script.js"></script>
 
     <title>Gwen Recommends</title>
   </head>
   <body>
     <header>
       <div class="row no-gutters banner-border bg-color-name-title">
-        <a class="col-md-4" href="index.html logo"
-          ><img class="crowlogo" src="../assets/images/crow3.png" alt="Crow"
-        /></a>
+        <a class="col-md-4 bannerside" href="index.html">
+        <img class="crowlogo" src="../assets/images/crow5.png" alt="Crow"/></a>
         <div class="col-md-4">
           <div class="row no-gutters">
             <div class="col heading">
@@ -42,8 +25,8 @@
             </div>
           </div>
         </div>
-        <div class="col-md-4">
-          <img class="crowlogo2" src="../assets/images/crow4.png" alt="Crow" />
+        <div class="col-md-4 bannerside">
+          <img class="crowlogo2" src="../assets/images/crow6.png" alt="Crow" />
         </div>
       </div>
     </header>
@@ -64,16 +47,16 @@
               </h3>
             </div>
           </div>
-          <div class="sidemenu">
+          <div class="side-menu">
           <div class="side-section-item">
             <div class="col-12">
-              <a href="index.html" class="side-link">
+              <div id="nest-outer" class="side-link">                                                                  <!--<a href="index.html"  id="nest-outter" class="side-link">-->
                 <h4 class="side-section-category current-page-category">
                   Nest <i class="fa fa-angle-down"></i>
                 </h4>
                 <!--<h4 class="side-section-category">Nest <button id="nest-outer" onclick="myFunction()"><i class="fa fa-angle-down"></i></button></h4>  -->
-              </a>
-              <a href="index.html" class="side-sub-link">
+              </div>
+              <a href="index.html" id="nest-inner" class="side-sub-link">
                 <p class="side-list-item current-page-list">Fly Home!</p>
               </a>
               <!--Note: toggle text or similar jquery effects challenge 2-->
@@ -153,7 +136,7 @@
             <div class="col-10 offset-1 offset-sm-0 col-sm-4 col-md-6">
               <div class="row">
                 <div class="col-2">
-                  <!-- <i class="main-section-icon fas fa-crow"></i>    Note: Not working?   --->
+                  <!-- <i class="main-section-icon fas fa-crow"></i>    Note Not working?   -->
                 </div>
                 <div class="col-10">
                   <h4 class="main-section-heading">Who...?</h4>
