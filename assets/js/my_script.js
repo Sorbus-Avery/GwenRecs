@@ -6,3 +6,7 @@ $("#nest-outer").click(function () {
 $(".name").click(function () {
   $(".title").toggle();
 });
+
+$("#side-section-heading").click(function () {
+  $("#side-menu").toggle();
+});

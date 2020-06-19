@@ -123,7 +123,7 @@ header {
 
 /*--------------------------------------------Side*/
 
-.side-section-heading {
+#side-section-heading {
   color: cornsilk;
   text-align: center;
   font-family: "Lora", sans-serif;
@@ -131,8 +131,14 @@ header {
   margin-top: 25px;
   margin-bottom: 40px;
   background-color: #63491dbd;
-  border-color: #3e2e12;
-  border-style: solid;
+  border-color: #271b08;
+  border-style: outset;
+  border-width: 3px;
+}
+
+#side-section-heading:hover {
+    background-color: #a1db36;
+    color:#271b08;
 }
 
 .col-12 {
@@ -141,7 +147,8 @@ header {
 
 .sidemenu-border {
   border-right-style: solid;
-  border-top-color: #271b08;
+  border-right-color: #271b08;
+  border-width: 3px;
 }
 
 .side-section-category {
@@ -151,7 +158,7 @@ header {
   background-color: #63491d8a; /* #6a861ab3;  #334f3a4f */
   color: cornsilk;
   font-size: larger;
-  font-family: "Lora", sans-serif;
+  font-family: "Open Sans", sans-serif;
 }
 
 .side-section-category:hover {
@@ -164,22 +171,7 @@ header {
   color: cornsilk;
   padding-right: 5px;
 }
-.side-list-item {
-  list-style: none;
-  background-color: #b59b62a3;
-  color: #0c150f;
-  margin-bottom: 0;
-  text-align: left;
-  font-family: "open sans", sans-serif; /*Note: Think about changing secondary font*/
-  font-size: large;
-  font-weight: 600;
-}
-.side-list-item:hover {
-  list-style: none;
-  /*background-color: #f6bc67;*/
-  background-color: #6a861a; /* #f96975;*/
-  color: #0c150f;
-}
+
 
 .side-link {
   color: cornsilk;
@@ -195,15 +187,19 @@ header {
 .side-section-item {
   display: block;
   clear: both;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #271b08;
 }
 
 .side-shiny-list {
   list-style: none;
 }
 
-.side-menu {
+#side-menu {
   border-color: #271b08;
   border-style: solid;
+  border-width: 2px;
 }
 
 /*--------------------------------------------Hover*/
@@ -275,7 +271,7 @@ footer {
   color: cornsilk;
   font-family: "Lora", sans-serif;
   padding: 5px;
-  border-color: #3e2e1299;
+  border-color: #314211fa;
   border-style: solid;
 }
 
@@ -286,7 +282,7 @@ footer {
   text-align: left;
   padding: 5px;
   font-family: "open sans";
-  border-color: #63822ab8;
+  border-color: #314211fa;
   border-style: solid;
 }
 
@@ -303,6 +299,11 @@ footer {
   margin-right: auto;
   border-color: #3e2e12;
   border-style: solid;
+}
+
+.nest-text {
+    margin-left: 10px;
+    margin-right: 10px;
 }
 
 /*-----------------------------------------------------------Serious shinies */
@@ -403,7 +404,7 @@ footer {
   color: #7fff00;
 }
 
-/* ----------------------------------------Media Queries */
+/* ----------------------------------------Media Queries and Responsive*/
 
 @media (max-width: 992px) {
   .bannerside,
@@ -415,4 +416,19 @@ footer {
   .side-list-item {
     text-align: center;
   }
+}
+
+@media (max-width: 767px) {
+    .sidemenu-border {
+        border-bottom-style: solid;
+        border-bottom-color: #271b08;
+    }
+    #side-menu {
+        display: none;
+    }
+}
+
+@media (min-width: 768px) {
+.hidden {
+    display:none;
 }
