@@ -4,9 +4,9 @@ $("#nest-outer").click(function () {
 });
 
 $(".name").click(function () {
-  $(".title").toggle();
+  $(".title").toggle("medium");
 });
 
 $("#side-section-heading").click(function () {
-  $("#side-menu").toggle();
+  $("#side-menu").toggle("medium");
 });

@@ -212,7 +212,7 @@ header {
 /* ------------------------------------------Footer */ /*Note: Work this*/
 
 footer {
-  background-color: #38290fb8;
+  background-color: #38290fe0;
   color: cornsilk;
   min-height: 120px;
   margin: 0;
@@ -224,25 +224,30 @@ footer {
   padding-bottom: 15px;
 }
 
-.social-links li a i {
-  width: 32px;
-  height: 32px;
-  padding: 12px 0;
-  border-radius: 50%;
-  font-size: 13px;
+.social-icon {
+  font-size: 25px;
   line-height: 7px;
   text-align: center;
-  color: cornsilk;
-  background: #2e3e12cf;
+  color: #a1db36;
   transition: all 0.35s ease-in-out;
   -moz-transition: all 0.35s ease-in-out;
   -webkit-transition: all 0.35s ease-in-out;
   -o-transition: all 0.35s ease-in-out;
 }
 
-.social-links li a i:hover {
-  background: #6a861a;
+.social-icon:hover {
+  color: cornsilk;
 }
+
+
+.social-icon-crow {
+  color: cornsilk;
+}
+
+.social-icon-crow:hover {
+  color: black;
+}
+
 
 #footer-details {
   padding: 20px;
@@ -254,13 +259,18 @@ footer {
 
 .footer-link:hover {
   text-decoration: none;
-  color: cornsilk;
-  background-color: #2e3e1291;
 }
 
+.general-sub,
 .footer-para {
   text-decoration: none;
   color: cornsilk;
+}
+
+.general-sub:hover,
+.footer-para:hover {
+  text-decoration: none;
+  color: #7fff00;
 }
 
 /* ----------------------------------------Main Section Nest/Home */
