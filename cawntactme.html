@@ -41,6 +41,16 @@
     <script src="assets/js/my_script.js"></script>
 
     <title>Gwen Recommends</title>
+    <script
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/emailjs-com@2.3.2/dist/email.min.js"
+    ></script>
+    <script type="text/javascript">
+      (function () {
+        emailjs.init("user_eaRdloF6qDAYeUCOK6H89");
+                                                                                   /* Test email script: emailjs.send("gmail", "cawcaw", );*/
+      })();
+    </script>
   </head>
   <body>
     <header>
@@ -52,7 +62,7 @@
           <div class="row no-gutters">
             <div class="col heading">
               <h1 class="name">Gwen Recommends...</h1>
-              <h2 class="title hidden-small">Current faves of crow brain...</h2>
+              <h2 class="title hidden-small">Cawntacting me!</h2>
             </div>
           </div>
         </div>
@@ -129,27 +139,52 @@
             </div>
           </div>
         </div>
-        <div class="col-md-8 col-lg-9">   <!--  bg-color-main-section section-column-->     <!-- Cawntact main section was made using the CI tutorial for "Rosie's resume". It has been adjusted to fit this page-->
+        <div class="col-md-8 col-lg-9">
+          <!--  bg-color-main-section section-column-->
+          <!-- Cawntact main section was made using the CI tutorial for "Rosie's resume". It has been adjusted to fit this page-->
           <div class="row bg-color-cawntact">
             <div class="col">
-            <h3 class="cawntact-heading text-center">Question? Cawment? Shiny?</h3>
-            <h5 class="caw-textbox">I do love shinies!</h5>
-            <div class="center-form">
-                <form>
-                    <input type="text" name="name" id="fullname" class="form-control" placeholder="Name" required />
-                    <input type="email" name="email" id="emailaddress" class="form-control" placeholder="Email" required />
-                    <textarea row="5" name="cawntactshinies" id="cawntactshinies" class="form-control" placeholder="Please place shinies, or questions or comments, here." required></textarea>
-                    <div class="form-row text-center">
-                        <div class="col">
-                            <button type="submit" class="btn  btn-secondary">Send it flying!</button> 
-                        </div>
+              <h3 id="cawntact-heading" class="text-center">
+                Question? Cawment? Shiny?
+              </h3>
+              <h5 id="caw-textbox">I do love shinies!</h5>
+              <!-- class="hidden-small"-->
+              <div class="center-form">
+                <form onsubmit="return sendMail(this);">
+                  <input
+                    type="text"
+                    name="name"
+                    id="fullname"
+                    class="form-control"
+                    placeholder="Name"
+                    required
+                  />
+                  <input
+                    type="email"
+                    name="email"
+                    id="emailaddress"
+                    class="form-control"
+                    placeholder="Email"
+                    required
+                  />
+                  <textarea
+                    row="5"
+                    name="emailcawntent"
+                    id="emailcawntent"
+                    class="form-control"
+                    placeholder="Please place shinies, or questions or comments, here."
+                    required
+                  ></textarea>
+                  <div class="form-row text-center">
+                    <div class="col">
+                      <button type="submit" class="btn btn-secondary">
+                        Send it flying!
+                      </button>
                     </div>
+                  </div>
                 </form>
-            
+              </div>
             </div>
-
-            </div>
-          
           </div>
         </div>
       </div>
@@ -182,13 +217,19 @@
           <ul class="list-inline social-links">
             <li class="list-inline-item">
               <a target="_blank" href="#">
-                <i class="fab fa-facebook-square social-icon" aria-hidden="true"></i>
+                <i
+                  class="fab fa-facebook-square social-icon"
+                  aria-hidden="true"
+                ></i>
                 <span class="sr-only">Facebook</span>
               </a>
             </li>
             <li class="list-inline-item">
               <a target="_blank" href="#">
-                <i class="fab fa-twitter-square social-icon" aria-hidden="true"></i>
+                <i
+                  class="fab fa-twitter-square social-icon"
+                  aria-hidden="true"
+                ></i>
                 <span class="sr-only">Twitter</span>
               </a>
             </li>
@@ -200,13 +241,19 @@
             </li>
             <li class="list-inline-item">
               <a target="_blank" href="#">
-                <i class="fab fa-pinterest-square social-icon" aria-hidden="true"></i>
+                <i
+                  class="fab fa-pinterest-square social-icon"
+                  aria-hidden="true"
+                ></i>
                 <span class="sr-only">Pinterest</span>
               </a>
             </li>
             <li class="list-inline-item">
               <a target="_blank" href="#">
-                <i class="fab fa-instagram-square social-icon" aria-hidden="true"></i>
+                <i
+                  class="fab fa-instagram-square social-icon"
+                  aria-hidden="true"
+                ></i>
                 <span class="sr-only">Instagram</span>
               </a>
             </li>
@@ -218,7 +265,10 @@
             </li>
             <li class="list-inline-item">
               <a target="_blank" href="#">
-                <i class="fas fa-crow social-icon social-icon-crow" aria-hidden="true"></i>
+                <i
+                  class="fas fa-crow social-icon social-icon-crow"
+                  aria-hidden="true"
+                ></i>
                 <span class="sr-only">SecretShiny</span>
               </a>
             </li>
@@ -226,6 +276,7 @@
         </div>
       </div>
     </footer>
+    <script src="assets/js/sendEmail.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.slim.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/js/bootstrap.min.js"></script>

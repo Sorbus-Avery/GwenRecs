@@ -4,6 +4,11 @@
 
 /*--------------------------------------------Colors and backgrounds*/
 
+
+html {
+    background-color: #2e3e12;
+}
+
 body {
   background: url("../images/forestpath.jpg");
   background-position: center;
@@ -382,7 +387,7 @@ footer {
 
 /*-----------------------------------------------------------Cawntact*/
 
-.cawntact-heading {
+#cawntact-heading {
   text-align: center;
   font-family: "Lora", sans-serif;
   font-weight: 300;
@@ -398,7 +403,7 @@ footer {
   border-style: solid;
 }
 
-.caw-textbox {
+#caw-textbox {
   font-family: "Open Sans", sans-serif;
   font-weight: 300;
   padding: 5px;
