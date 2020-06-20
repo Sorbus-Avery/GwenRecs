@@ -353,6 +353,7 @@ footer {
   font-size: larger;
   border-color: #3e2e12;
   border-style: solid;
+      margin: 0 auto;
 }
 
 /*-----------------------------------------------------------Fun Shinies*/
@@ -383,6 +384,7 @@ footer {
   font-size: larger;
   border-color: #3e2e12;
   border-style: solid;
+  margin: 0 auto;
 }
 
 /*-----------------------------------------------------------Cawntact*/
@@ -480,5 +482,9 @@ button[type="submit"] {
         min-height:240px;
         margin: 0 auto;
         max-width:50%;
+    }
+    .fun-textbox,
+    .serious-textbox {
+        max-width: 70% ;
     }
 }
