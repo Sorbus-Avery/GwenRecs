@@ -7,9 +7,13 @@ function sendMail(contactForm) {
     .then(
         function(response) {
             console.log("SUCCESS", response);
+            location.reload();
        },
         function(error) {
             console.log("FAILED", error);
         });
     return false;
 }
+
+
+/* put response in browser and figure out how to clear form after submission*/

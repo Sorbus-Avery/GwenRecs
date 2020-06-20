@@ -4,16 +4,15 @@
 
 /*--------------------------------------------Colors and backgrounds*/
 
-
 html {
     background-color: #2e3e12;
 }
 
 body {
-  background: url("../images/forestpath.jpg");
+    background: url("../images/forestpath.jpg");
   background-position: center;
   background-repeat: no-repeat;
-  background-size: cover;
+    background-size: cover;
   min-height: 100%;
 }
 
@@ -30,7 +29,7 @@ body {
 }
 
 .bg-color-cawntact {
-    background-color: #bba84975;
+  background-color: #bba84975;
 }
 
 /* ----------------------------------------Special paddings/margins/text */
@@ -105,8 +104,8 @@ header {
   width: fit-content;
   border-style: outset;
   border-color: #647d38;
-  margin-left:auto;
-  margin-right:auto;
+  margin-left: auto;
+  margin-right: auto;
   text-align: center;
 }
 
@@ -120,8 +119,8 @@ header {
   width: fit-content;
   border-style: outset;
   border-color: #647d38;
-  margin-left:auto;
-  margin-right:auto;
+  margin-left: auto;
+  margin-right: auto;
   text-align: center;
 }
 
@@ -145,8 +144,8 @@ header {
 }
 
 #side-section-heading:hover {
-    background-color: #a1db36;
-    color:#271b08;
+  background-color: #a1db36;
+  color: #271b08;
 }
 
 .col-12 {
@@ -179,7 +178,6 @@ header {
   color: cornsilk;
   padding-right: 5px;
 }
-
 
 .side-link {
   color: cornsilk;
@@ -248,7 +246,6 @@ footer {
   color: cornsilk;
 }
 
-
 .social-icon-crow {
   color: cornsilk;
   font-size: 20px;
@@ -257,7 +254,6 @@ footer {
 .social-icon-crow:hover {
   color: black;
 }
-
 
 #footer-details {
   padding: 20px;
@@ -322,8 +318,8 @@ footer {
 }
 
 .nest-text {
-    margin-left: 10px;
-    margin-right: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
 }
 
 /*-----------------------------------------------------------Serious shinies */
@@ -347,13 +343,14 @@ footer {
   font-family: "Open Sans", sans-serif;
   font-weight: 300;
   padding: 5px;
-  margin-bottom: 40px;
   color: cornsilk;
   background-color: #2e3e12cf;
   font-size: larger;
   border-color: #3e2e12;
   border-style: solid;
-      margin: 0 auto;
+  margin-bottom: 40px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 /*-----------------------------------------------------------Fun Shinies*/
@@ -378,13 +375,14 @@ footer {
   font-family: "Open Sans", sans-serif;
   font-weight: 300;
   padding: 5px;
-  margin-bottom: 40px;
   color: cornsilk;
   background-color: #2e3e12cf;
   font-size: larger;
   border-color: #3e2e12;
   border-style: solid;
-  margin: 0 auto;
+  margin-bottom: 40px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 /*-----------------------------------------------------------Cawntact*/
@@ -409,30 +407,29 @@ footer {
   font-family: "Open Sans", sans-serif;
   font-weight: 300;
   padding: 5px;
-  margin-bottom: 20px;                                         /*play with top/bottom margins*/
+  margin-bottom: 20px; /*play with top/bottom margins   combine margins into 1 category?*/
   color: cornsilk;
   background-color: #2e3e12cf;
   font-size: larger;
   border-color: #3e2e12;
   border-style: solid;
-    width: fit-content;
-    margin-left: auto;
+  width: fit-content;
+  margin-left: auto;
   margin-right: auto;
 }
 
 .center-form {
-    padding-top: 10px;
-    margin:0 auto;
-    max-width: 70%;                         /* change background color? leave? */
+  padding-top: 10px;
+  margin: 0 auto;
+  max-width: 70%; /* change background color? leave? */
 }
 
 button[type="submit"] {
-    margin-top: 15px;
-    margin-bottom: 20px;
-    background-color: #2e3e12cf;
-    color: cornsilk;
+  margin-top: 15px;
+  margin-bottom: 20px;
+  background-color: #2e3e12cf;
+  color: cornsilk;
 }
-
 
 /*-----------------------------------------------------------Current*/
 .current-page-list {
@@ -458,33 +455,33 @@ button[type="submit"] {
 }
 
 @media (max-width: 767px) {
-    .sidemenu-border {
-        border-bottom-style: solid;
-        border-bottom-color: #271b08;
-    }
-    #side-menu {
-        display: none;
-    }
-    .hidden-small {
-        display:none;
-    }
+  .sidemenu-border {
+    border-bottom-style: solid;
+    border-bottom-color: #271b08;
+  }
+  #side-menu {
+    display: none;
+  }
+  .hidden-small {
+    display: none;
+  }
 }
 
 @media (min-width: 768px) {
-    .hidden {
-         display:none;
-    }
+  .hidden {
+    display: none;
+  }
 }
 
-@media(min-width:992px) {
-    .center-form {
-        padding-top: 30px;
-        min-height:240px;
-        margin: 0 auto;
-        max-width:50%;
-    }
-    .fun-textbox,
-    .serious-textbox {
-        max-width: 70% ;
-    }
+@media (min-width: 992px) {
+  .center-form {
+    padding-top: 30px;
+    min-height: 240px;
+    margin: 0 auto;
+    max-width: 50%;
+  }
+  .fun-textbox,
+  .serious-textbox {
+    max-width: 70%;
+  }
 }
