@@ -133,9 +133,7 @@
           <h3 class="fun-heading">Who in the what with the why now?</h3>
 
           <div class="row">
-            <div id="map">
-            
-            </div>
+            <div id="map"></div>
 
             <div class="col-12">
               <h4 class="fun-heading">Who in the what with the why now?</h4>
@@ -251,9 +249,23 @@
         </div>
       </div>
     </footer>
-    <script>
-    var APIKey = "AIzaSyCGhT96nFOClxlJc4hmY2t1_b0ZIh17iN0";
-    </script>
+   <script>
+    function initMap() {
+       var map = new google.maps.Map(document.getElementById("map"), {
+            zoom: 3,
+            center: {
+                lat: 46.619261,
+                lng: - 33.134766
+            }
+       }); 
+    }
+
+ /* remove after testing      var APIKey = "AIzaSyCGhT96nFOClxlJc4hmY2t1_b0ZIh17iN0"; */
+    </script>  
+    <script src="/maps/documentation/javascript/examples/markerclusterer/markerclustererplus@4.0.1.min.js"></script>
+    <script
+      async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCGhT96nFOClxlJc4hmY2t1_b0ZIh17iN0&callback=initMap"
+    ></script>
   </body>
   <script src="assets/js/jquery-3.5.1.js"></script>
   <script src="assets/js/my_script.js"></script>

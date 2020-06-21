@@ -440,7 +440,7 @@ button[type="submit"] {
   color: #7fff00;
 }
 
-/* ----------------------------------------Media Queries and Responsive*/
+/*-----------------------------------------------------------Media Queries and Responsive*/
 
 @media (max-width: 992px) {
   .bannerside,
@@ -484,4 +484,10 @@ button[type="submit"] {
   .serious-textbox {
     max-width: 70%;
   }
+}
+
+/*----------------------------------------------------------- APIs */
+
+#map {
+    min-height: 100%;
 }
