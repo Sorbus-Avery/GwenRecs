@@ -9,10 +9,11 @@ html {
 }
 
 body {
-    background: url("../images/forestpath.jpg");
+    background-image: url("../images/forestpath.jpg");
   background-position: center;
   background-repeat: no-repeat;
     background-size: cover;
+    background-attachment: fixed;
   min-height: 100%;
 }
 
@@ -491,4 +492,5 @@ button[type="submit"] {
 #map {
     height: 300px;
     width: 60%;
+    margin: 0 auto;
 }
