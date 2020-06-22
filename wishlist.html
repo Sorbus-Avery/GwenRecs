@@ -1,180 +1,176 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/css/bootstrap.min.css"
-    />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css"
-    />
-    <!-- CSS only -->
-    <link
-      rel="stylesheet"
-      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
-      integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk"
-      crossorigin="anonymous"
-    />
 
-    <!-- JS, Popper.js, and jQuery -->
-    <script
-      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
-      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
-      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
-      integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
-      crossorigin="anonymous"
-    ></script>
-    <link rel="stylesheet" href="assets/css/style.css" />
+<head>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+	<link rel="stylesheet"
+		href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/css/bootstrap.min.css" />
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" />
+	<!-- CSS only -->
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+		integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous" />
 
-    <title>Gwen Recommends</title>
-  </head>
+	<!-- JS, Popper.js, and jQuery -->
+	<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+		integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
+	</script>
+	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+		integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
+	</script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+		integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous">
+	</script>
+	<link rel="stylesheet" href="assets/css/style.css" />
 
-  <body>
-    <header>
-      <div class="row no-gutters banner-border bg-color-name-title">
-        <a class="col-lg-4 bannerside" href="index.html">
-          <img class="crowlogo" src="../assets/images/crow5.png" alt="Crow"
+	<title>Gwen Recommends</title>
+</head>
+
+<body>
+	<header>
+		<div class="row no-gutters banner-border bg-color-name-title">
+			<a class="col-lg-4 bannerside" href="index.html">
+				<img class="crowlogo" src="../assets/images/crow5.png" alt="Crow"
         /></a>
-        <div class="col-lg-4">
-          <div class="row no-gutters">
-            <div class="col heading">
-              <h1 class="name">Gwen Recommends...</h1>
-              <h2 class="title hidden-small">Current faves of crow brain...</h2>
-            </div>
-          </div>
+				<div class="col-lg-4">
+					<div class="row no-gutters">
+						<div class="col heading">
+							<h1 class="name">Gwen Recommends...</h1>
+							<h2 class="title hidden-small">Current faves of crow brain...</h2>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-4 bannerside">
+					<img class="crowlogo2" src="../assets/images/crow6.png" alt="Crow" />
         </div>
-        <div class="col-lg-4 bannerside">
-          <img class="crowlogo2" src="../assets/images/crow6.png" alt="Crow" />
-        </div>
-      </div>
-    </header>
-    <section class="container-fluid">
-      <div class="row no-gutter">
-                                                                                                       <!--Start of side menu, next line-->
-        <div                                              
-          class="col-md-4 col-lg-3 bg-color-side-section sidemenu-border section-column"
-        >                                                                                               
-          <div class="row no-gutter">                                           
-            <div class="col-12">
-              <h3 id="side-section-heading">
-                Where The Crow Flies
-                <i class="fa fa-angle-down hidden"></i>
-              </h3>
-            </div>
-          </div>
-          <div id="side-menu">
-            <div class="side-section-item">
-              <div class="col-12">
-                <a href="index.html" class="side-link">
-                  <h4 class="side-section-category">
-                    Nest
-                  </h4>
-                </a>
-              </div>
-            </div>
-            <div class="side-section-item">
-              <div class="col-12">
-                <a href="wishlist.html" class="side-link">
-                  <h4 class="side-section-category current-page-category">
-                    Places to go!
-                  </h4>
-                </a>
-              </div>
-            </div>
-            <div class="side-section-item">
-              <div class="col-12">
-                <a href="shinies.html" class="side-link">
-                  <h4 class="side-section-category">
-                    Shinies
-                  </h4>
-                </a>
-              </div>
-            </div>
-            <div class="side-section-item">
-              <div class="col-12">
-                <a href="cawntactme.html" class="side-link">
-                  <h4 class="side-section-category">
-                    Cawntact Me
-                  </h4>
-                </a>
-              </div>
-            </div>
-          </div>
-        </div>                                                                                         <!--End of Side Menu-->
-        <div class="col-md-8 col-lg-9 bg-color-main-section section-column">                           <!--Main section-->
-          <h3 class="fun-heading">Who in the what with the why now?</h3>
+				</div>
+	</header>
+	<section class="container-fluid">
+		<div class="row no-gutter">
+			<!--Start of side menu, next line-->
+			<div class="col-md-4 col-lg-3 bg-color-side-section sidemenu-border section-column">
+				<div class="row no-gutter">
+					<div class="col-12">
+						<h3 id="side-section-heading">
+							Where The Crow Flies
+							<i class="fa fa-angle-down hidden"></i>
+						</h3>
+					</div>
+				</div>
+				<div id="side-menu">
+					<div class="side-section-item">
+						<div class="col-12">
+							<a href="index.html" class="side-link">
+								<h4 class="side-section-category">
+									Nest
+								</h4>
+							</a>
+						</div>
+					</div>
+					<div class="side-section-item">
+						<div class="col-12">
+							<a href="wishlist.html" class="side-link">
+								<h4 class="side-section-category current-page-category">
+									Places to go!
+								</h4>
+							</a>
+						</div>
+					</div>
+					<div class="side-section-item">
+						<div class="col-12">
+							<a href="shinies.html" class="side-link">
+								<h4 class="side-section-category">
+									Shinies
+								</h4>
+							</a>
+						</div>
+					</div>
+					<div class="side-section-item">
+						<div class="col-12">
+							<a href="cawntactme.html" class="side-link">
+								<h4 class="side-section-category">
+									Cawntact Me
+								</h4>
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!--End of Side Menu-->
+			<div class="col-md-8 col-lg-9 bg-color-main-section section-column">
+				<!--Main section-->
+				<h3 class="wishlist-heading">Places To Go</h3>
 
-          <div class="row">
-            <div class="col-12">
-              <h4 class="fun-heading">Who in the what with the why now?</h4>
-              <p class="fun-textbox">
-                text text texttext text texttext text texttexttext text texttext
-                text texttext text texttexttext text texttext text texttext text
-                texttexttext text texttext text texttext text texttext
-              </p>
+				<div class="row">
+					<div class="col-12">
+						<h4 class="wishlist-heading">As the Crow Flies</h4>
+						<h5 class="wishlist-heading">Wild Ireland</h5>
+						<p class="wishlist-textbox">
+							Wild Ireland, located on the Wild Atlantic Way, is a new and exciting
+							Visitor attration in the North West of Ireland. Their primary purpose
+							is as a rescue for some of the wildlife that lived in ancient Ireland,
+							bears, wolves, lynx, red deer and wild boar. They also have barbary
+							macaques which are the only monkey native to Europe, there is currently
+							no evidence of them being native, however there is evidence of them
+							being here up to 2500 years ago. Either way, Wild Ireland is currently
+							providing a happy home to 5 rescues. More information can be found at
+							<span><a href="https://www.wildireland.org/monkeys" class="wish-link">
+                            wildireland.org.             
+                            </a></span>
+						</p>
 
-              <h4 class="fun-heading">Who in the what with the why now?</h4>
-              <p class="fun-textbox">
-                text text texttext text texttext text texttexttext text texttext
-                text texttext text texttexttext text texttext text texttext text
-                texttexttext text texttext text texttext text texttext
-              </p>
-            </div>
-            <div class="col-12">
-              <div id="map"></div>                                                                     <!--Map-->
-            </div>
-            <div class="col-12">
-              <h4 class="fun-heading">Who in the what with the why now?</h4>
-              <p class="fun-textbox">
-                text text texttext text texttext text texttexttext text texttext
-                text texttext text texttexttext text texttext text texttext text
-                texttexttext text texttext text texttext text texttext
-              </p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
+						<h4 class="wishlist-heading">Who in the what with the why now?</h4>
+						<p class="wishlist-textbox">
+							text text texttext text texttext text texttexttext text texttext
+							text texttext text texttexttext text texttext text texttext text
+							texttexttext text texttext text texttext text texttext
+						</p>
+					</div>
+					<div class="col-12">
+						<div id="map"></div>
+						<!--Map-->
+					</div>
+					<div class="col-12">
+						<h4 class="wishlist-heading">Who in the what with the why now?</h4>
+						<p class="wishlist-textbox">
+							text text texttext text texttext text texttexttext text texttext
+							text texttext text texttexttext text texttext text texttext text
+							texttexttext text texttext text texttext text texttext
+						</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
 
-    <footer class="container-fluid">
-      <div id="footer-details" class="row">
-        <div class="col-sm-3">
-          <a href="index.html" class="footer-link inline-block">
-            <h5 class="uppercase general-sub">Nest</h5>
-            <p class="footer-para">Fly Home!</p>
-          </a>
-        </div>
-        <div class="col-sm-3">
-          <a href="wishlist.html" class="footer-link inline-block">
-            <h5 class="uppercase general-sub">Places to Go</h5>
-            <p class="footer-para">Flight Plans!</p>
-          </a>
-        </div>
-        <div class="col-sm-3">
-          <a href="shiny.html" class="footer-link inline-block">
-            <h5 class="uppercase general-sub">Shinies</h5>
-            <p class="footer-para">Thingamabobs!</p>
-          </a>
-        </div>
-        <div class="col-sm-3">
-          <a href="cawntactme.html" class="footer-link inline-block">
-            <h5 class="uppercase general-sub">Cawntact Me</h5>
- 
-          </a>
-          <ul class="list-inline social-links">                                                         
-          <!--                                                                                              Not ready to share personal social links and no pro social links to share yet. Social media links left for when that changes.
+	<footer class="container-fluid">
+		<div id="footer-details" class="row">
+			<div class="col-sm-3">
+				<a href="index.html" class="footer-link inline-block">
+					<h5 class="uppercase general-sub">Nest</h5>
+					<p class="footer-para">Fly Home!</p>
+				</a>
+			</div>
+			<div class="col-sm-3">
+				<a href="wishlist.html" class="footer-link inline-block">
+					<h5 class="uppercase general-sub">Places to Go</h5>
+					<p class="footer-para">Flight Plans!</p>
+				</a>
+			</div>
+			<div class="col-sm-3">
+				<a href="shiny.html" class="footer-link inline-block">
+					<h5 class="uppercase general-sub">Shinies</h5>
+					<p class="footer-para">Thingamabobs!</p>
+				</a>
+			</div>
+			<div class="col-sm-3">
+				<a href="cawntactme.html" class="footer-link inline-block">
+					<h5 class="uppercase general-sub">Cawntact Me</h5>
+
+				</a>
+				<ul class="list-inline social-links">
+					<!--                                                                                              Not ready to share personal social links and no pro social links to share yet. Social media links left for when that changes.
             <li class="list-inline-item">
               <a target="_blank" href="#">
                 <i
@@ -223,29 +219,27 @@
                 <span class="sr-only">YouTube</span>
               </a>
             </li>                                                                                                       -->
-            <li class="list-inline-item">
-              <a target="_blank" href="#">
-                <i
+					<li class="list-inline-item">
+						<a target="_blank" href="#">
+							<i
                   class="fas fa-crow social-icon social-icon-crow"
                   aria-hidden="true"
                 ></i>
-                <a href="https://myoctocat.com/" target="_blank"
-                  ><span class="sr-only">SecretShiny</span></a
-                >
-              </a>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </footer>
-    <script src="assets/js/jquery-3.5.1.js"></script>
-    <script src="assets/js/my_script.js"></script>
-    <script src="assets/js/maps.js"></script>
-    <script src="https://unpkg.com/@google/markerclustererplus@4.0.1/dist/markerclustererplus.min.js"></script>
-    <script
-      async
-      defer
-      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCGhT96nFOClxlJc4hmY2t1_b0ZIh17iN0&callback=initMap"
-    ></script>
-  </body>
+							<a href="https://myoctocat.com/"
+								target="_blank"><span class="sr-only">SecretShiny</span></a>
+						</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</footer>
+	<script src="assets/js/jquery-3.5.1.js"></script>
+	<script src="assets/js/my_script.js"></script>
+	<script src="assets/js/maps.js"></script>
+	<script src="https://unpkg.com/@google/markerclustererplus@4.0.1/dist/markerclustererplus.min.js"></script>
+	<script async defer
+		src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCGhT96nFOClxlJc4hmY2t1_b0ZIh17iN0&callback=initMap">
+	</script>
+</body>
+
 </html>

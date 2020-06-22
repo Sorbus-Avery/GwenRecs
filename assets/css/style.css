@@ -385,6 +385,49 @@ footer {
   margin-left: auto;
   margin-right: auto;
 }
+/*-----------------------------------------------------------Wishlist*/
+
+.wishlist-heading {
+  text-align: center;
+  font-family: "Lora", sans-serif;
+  font-weight: 300;
+  margin-top: 25px;
+  margin-bottom: 40px;
+  color: cornsilk;
+  background-color: #63491ddb;
+  width: fit-content;
+  padding: 5px;
+  margin-left: auto;
+  margin-right: auto;
+  border-color: #3e2e12;
+  border-style: solid;
+}
+
+.wishlist-textbox {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 300;
+  padding: 5px;
+  color: cornsilk;
+  background-color: #2e3e12cf;
+  font-size: larger;
+  border-color: #3e2e12;
+  border-style: solid;
+  margin-bottom: 40px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.wish-link {
+    text-decoration: none;
+    color: #7fff00;
+}
+
+.wish-link:hover {
+    text-decoration: none;
+    color: rgb(20, 228, 210);
+}
+
+
 
 /*-----------------------------------------------------------Cawntact*/
 
