@@ -40,6 +40,7 @@
 
     <title>Gwen Recommends</title>
   </head>
+
   <body>
     <header>
       <div class="row no-gutters banner-border bg-color-name-title">
@@ -59,13 +60,13 @@
         </div>
       </div>
     </header>
-
     <section class="container-fluid">
       <div class="row no-gutter">
-        <div
+                                                                                                       <!--Start of side menu, next line-->
+        <div                                              
           class="col-md-4 col-lg-3 bg-color-side-section sidemenu-border section-column"
-        >
-          <div class="row no-gutter">
+        >                                                                                               
+          <div class="row no-gutter">                                           
             <div class="col-12">
               <h3 id="side-section-heading">
                 Where The Crow Flies
@@ -86,7 +87,7 @@
             <div class="side-section-item">
               <div class="col-12">
                 <a href="wishlist.html" class="side-link">
-                  <h4 class="side-section-category">
+                  <h4 class="side-section-category current-page-category">
                     Places to go!
                   </h4>
                 </a>
@@ -95,7 +96,7 @@
             <div class="side-section-item">
               <div class="col-12">
                 <a href="shinies.html" class="side-link">
-                  <h4 class="side-section-category current-page-category">
+                  <h4 class="side-section-category">
                     Shinies
                   </h4>
                 </a>
@@ -111,11 +112,15 @@
               </div>
             </div>
           </div>
-        </div>
-        <div class="col-md-8 col-lg-9 bg-color-main-section section-column">
+        </div>                                                                                         <!--End of Side Menu-->
+        <div class="col-md-8 col-lg-9 bg-color-main-section section-column">                           <!--Main section-->
           <h3 class="fun-heading">Who in the what with the why now?</h3>
 
           <div class="row">
+            <div class="col-12">
+              <div id="map"></div>                                                                     <!--Map-->
+            </div>
+
             <div class="col-12">
               <h4 class="fun-heading">Who in the what with the why now?</h4>
               <p class="fun-textbox">
@@ -142,6 +147,7 @@
         </div>
       </div>
     </section>
+
     <footer class="container-fluid">
       <div id="footer-details" class="row">
         <div class="col-sm-3">
@@ -151,13 +157,13 @@
           </a>
         </div>
         <div class="col-sm-3">
-          <a href="seriousshiny.html" class="footer-link inline-block">
+          <a href="wishlist.html" class="footer-link inline-block">
             <h5 class="uppercase general-sub">Places to Go</h5>
             <p class="footer-para">Flight Plans!</p>
           </a>
         </div>
         <div class="col-sm-3">
-          <a href="funshiny.html" class="footer-link inline-block">
+          <a href="shiny.html" class="footer-link inline-block">
             <h5 class="uppercase general-sub">Shinies</h5>
             <p class="footer-para">Thingamabobs!</p>
           </a>
@@ -232,7 +238,14 @@
         </div>
       </div>
     </footer>
+    <script src="assets/js/jquery-3.5.1.js"></script>
+    <script src="assets/js/my_script.js"></script>
+    <script src="assets/js/maps.js"></script>
+    <script src="https://unpkg.com/@google/markerclustererplus@4.0.1/dist/markerclustererplus.min.js"></script>
+    <script
+      async
+      defer
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCGhT96nFOClxlJc4hmY2t1_b0ZIh17iN0&callback=initMap"
+    ></script>
   </body>
-  <script src="assets/js/jquery-3.5.1.js"></script>
-  <script src="assets/js/my_script.js"></script>
 </html>

@@ -356,7 +356,7 @@ footer {
                                                                                                 */
 /*-----------------------------------------------------------Fun Shinies*/
 
-.fun-heading {
+.shiny-heading {
   text-align: center;
   font-family: "Lora", sans-serif;
   font-weight: 300;
@@ -372,7 +372,7 @@ footer {
   border-style: solid;
 }
 
-.fun-textbox {
+.shiny-textbox {
   font-family: "Open Sans", sans-serif;
   font-weight: 300;
   padding: 5px;
