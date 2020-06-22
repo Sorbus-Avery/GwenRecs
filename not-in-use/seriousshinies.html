@@ -60,17 +60,24 @@
         </div>
       </div>
     </header>
+    <!--Note:
+    Look at switching to collapsible side navbar as well as drop down  https://www.w3schools.com/howto/howto_js_collapse_sidebar.asp  Also look a jquery for this. 
+    look at bootstrap for hover options for side and top menus
+    Extend side menu bottoms for full width of the side. 
+    center?
+    middle bottom for fa-caret thing-->
     <section class="container-fluid">
       <div class="row no-gutter">
-                                                                                                       <!--Start of side menu, next line-->
-        <div                                              
+        <div
           class="col-md-4 col-lg-3 bg-color-side-section sidemenu-border section-column"
-        >                                                                                               
-          <div class="row no-gutter">                                           
+        >
+          <div class="row no-gutter">
             <div class="col-12">
               <h3 id="side-section-heading">
                 Where The Crow Flies
                 <i class="fa fa-angle-down hidden"></i>
+                <!-- Note: in mobile settings collapse all but the main header or have a top nav bar like mentioned above-->
+                <!---<i class="fa fa-angle-down"></i>     ------->
               </h3>
             </div>
           </div>
@@ -78,28 +85,45 @@
             <div class="side-section-item">
               <div class="col-12">
                 <a href="index.html" class="side-link">
+                  <!--<a href="index.html"  id="nest-outter" class="side-link">-->
                   <h4 class="side-section-category">
                     Nest
                   </h4>
+                  <!--<h4 class="side-section-category">Nest <button id="nest-outer" onclick="myFunction()"><i class="fa fa-angle-down"></i></button></h4>  -->
                 </a>
+                <!--Note: toggle text or similar jquery effects challenge 2-->
               </div>
             </div>
             <div class="side-section-item">
               <div class="col-12">
                 <a href="wishlist.html" class="side-link">
-                  <h4 class="side-section-category current-page-category">
-                    Places to go!
+                  <h4 class="side-section-category">
+                    Wishlist
                   </h4>
+                  <!---Note: Add margin between h4 and books-->
                 </a>
+                <!--Note: consider list for all items, can a list be togggled closed?-->
               </div>
             </div>
             <div class="side-section-item">
               <div class="col-12">
-                <a href="shinies.html" class="side-link">
+                <a href="seriousshinies.html" class="side-link">
+                  <h4 class="side-section-category current-page-category">
+                    Serious Shinies
+                  </h4>
+                  <!---Note: Add margin between h4 and books-->
+                </a>
+                <!--Note: consider list for all items, can a list be togggled closed?-->
+              </div>
+            </div>
+            <div class="side-section-item">
+              <div class="col-12">
+                <a href="funshinies.html" class="side-link">
                   <h4 class="side-section-category">
-                    Shinies
+                    Fun Shinies
                   </h4>
                 </a>
+                <!--Note: consider list for all items, can a list be togggled closed?-->
               </div>
             </div>
             <div class="side-section-item">
@@ -109,16 +133,18 @@
                     Cawntact Me
                   </h4>
                 </a>
+
+                <!--Note: Can I make it so the descriptor when I put the mouse over it is "got any shinies?!"-->
               </div>
             </div>
           </div>
-        </div>                                                                                         <!--End of Side Menu-->
-        <div class="col-md-8 col-lg-9 bg-color-main-section section-column">                           <!--Main section-->
-          <h3 class="fun-heading">Who in the what with the why now?</h3>
+        </div>
+        <div class="col-md-8 col-lg-9 bg-color-main-section section-column">
+          <h3 class="fun-heading">Wishlist</h3>
 
           <div class="row">
             <div class="col-12">
-              <div id="map"></div>                                                                     <!--Map-->
+              <div id="map"></div>
             </div>
 
             <div class="col-12">
@@ -153,28 +179,27 @@
         <div class="col-sm-3">
           <a href="index.html" class="footer-link inline-block">
             <h5 class="uppercase general-sub">Nest</h5>
+            <!-- put in links -->
             <p class="footer-para">Fly Home!</p>
           </a>
         </div>
         <div class="col-sm-3">
           <a href="seriousshiny.html" class="footer-link inline-block">
-            <h5 class="uppercase general-sub">Places to Go</h5>
-            <p class="footer-para">Flight Plans!</p>
+            <h5 class="uppercase general-sub">Serious Shiny</h5>
+            <p class="footer-para">Shiny Shiny Serious Stuff</p>
           </a>
         </div>
         <div class="col-sm-3">
           <a href="funshiny.html" class="footer-link inline-block">
-            <h5 class="uppercase general-sub">Shinies</h5>
-            <p class="footer-para">Thingamabobs!</p>
+            <h5 class="uppercase general-sub">Fun Shiny</h5>
+            <p class="footer-para">Shiny Shiny Fun Stuff</p>
           </a>
         </div>
         <div class="col-sm-3">
           <a href="cawntactme.html" class="footer-link inline-block">
             <h5 class="uppercase general-sub">Cawntact Me</h5>
- 
           </a>
-          <ul class="list-inline social-links">                                                         
-          <!--                                                                                              Not ready to share personal social links and no pro social links to share yet. Social media links left for when that changes.
+          <ul class="list-inline social-links">
             <li class="list-inline-item">
               <a target="_blank" href="#">
                 <i
@@ -222,16 +247,14 @@
                 <i class="fab fa-youtube social-icon" aria-hidden="true"></i>
                 <span class="sr-only">YouTube</span>
               </a>
-            </li>                                                                                                       -->
+            </li>
             <li class="list-inline-item">
               <a target="_blank" href="#">
                 <i
                   class="fas fa-crow social-icon social-icon-crow"
                   aria-hidden="true"
                 ></i>
-                <a href="https://myoctocat.com/" target="_blank"
-                  ><span class="sr-only">SecretShiny</span></a
-                >
+                <span class="sr-only">SecretShiny</span>
               </a>
             </li>
           </ul>
