@@ -509,6 +509,13 @@ button[type="submit"] {
   .hidden-small {
     display: none;
   }
+  p.footer-para {
+      display: none;
+  }
+  .col-sm-3 {
+      border-bottom-color: burlywood;
+      text-align: center;
+  }
 }
 
 @media (min-width: 768px) {
