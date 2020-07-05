@@ -519,6 +519,11 @@ button[type="submit"] {
       text-align: center;
   }
 }
+@media (min-width: 576px) {
+    .social-icon-crow {
+      display: none;
+  }
+}
 
 @media (min-width: 768px) {
   .hidden {
