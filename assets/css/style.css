@@ -448,6 +448,11 @@ footer {
     text-decoration: none;
     color: chartreuse;
 }
+.places-quote {
+    width: 80%;
+    text-align: center;
+    margin: auto;
+}
 
 /*-----------------------------------------------------------Cawntact*/
 
