@@ -386,6 +386,16 @@ footer {
   margin-right: auto;
   width: 70%;
 }
+
+.shiny-para-link {
+    text-decoration: none;
+    color: #ffe429;
+}
+
+.shiny-para-link:hover {
+    text-decoration: none;
+    color: chartreuse;
+}
 /*-----------------------------------------------------------places*/
 
 .places-heading {
@@ -429,7 +439,15 @@ footer {
     color: rgb(20, 228, 210);
 }
 
+.places-para-link {
+    text-decoration: none;
+    color: #ffe429;
+}
 
+.places-para-link:hover {
+    text-decoration: none;
+    color: chartreuse;
+}
 
 /*-----------------------------------------------------------Cawntact*/
 
