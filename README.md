@@ -17,7 +17,7 @@ In this page there are 4 main pages:
 
 The side menu is collapsible by clicking the header and will be auto collapsed when the screen is below a certain size. There are a few headers that also do this, not out of anything necessary, just for a bit of fun. In the tablet and mobile size there is even a Secret Shiny hidden in the footer in the form of a crow icon. It leads to the Octocat website. In future there will be more of these EasterEggs tucked throughout the site. 
 
-### In future… 
+### In Future… 
 I also plan on having the side menu panel completely collapsible. I plan to have a books section with a goodreads api, a youtube non-music playlist via api, and a youtube music playlist via api. 
 
 There will also be a mailing-list sign up on the bottom of the page with associated social media. At this time, I do not have public social media that I feel comfortable sharing however I plan on changing this. 
@@ -41,7 +41,7 @@ Using Chrome Developer features I played with the screen size to ensure that the
 
 The only problem noted is that the bottom of the page slips higher on larger screens for the Nest and Cawntact pages. Added a temporary solution of a background colour that suits the existing colours while I investigate on sticking footer to the bottom of the screen without disrupting the rest of the page. 
 
-##Deployment
+## Deployment
 
 To clone this project from GitHub:
 1.	Follow this link to the [Gwen Recommends]( https://github.com/Gwen-of-lynn/GwenRecs).
