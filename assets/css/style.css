@@ -426,7 +426,9 @@ footer {
     text-align: center;
     margin: auto;
 }
-
+.places-video {
+    text-align: center;                         /*div is not text but content aligns to the center with text-align*/
+}
 /*-----------------------------------------------------------Cawntact*/
 
 #cawntact-heading {
