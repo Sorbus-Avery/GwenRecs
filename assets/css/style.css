@@ -366,6 +366,9 @@ footer {
     text-decoration: none;
     color: chartreuse;
 }
+.shiny-video {
+    text-align: center;                         /*div is not text but content aligns to the center with text-align*/
+}
 /*-----------------------------------------------------------places*/
 
 .places-heading {
