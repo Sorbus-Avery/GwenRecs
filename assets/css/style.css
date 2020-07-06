@@ -470,6 +470,14 @@ button[type="submit"] {
   color: cornsilk;
 }
 
+.btn-secondary {
+    border-color:#271b08;
+}
+.btn-secondary:hover {
+    background-color: chartreuse;
+    color:black;
+}
+
 /*-----------------------------------------------------------Current*/
 .current-page-list {
   background-color: #c7b488;
