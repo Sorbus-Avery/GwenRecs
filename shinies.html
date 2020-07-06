@@ -1,320 +1,271 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/css/bootstrap.min.css"
-    />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css"
-    />
-    <!-- CSS only -->
-    <link
-      rel="stylesheet"
-      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
-      integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk"
-      crossorigin="anonymous"
-    />
 
-    <!-- JS, Popper.js, and jQuery -->
-    <script
-      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
-      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
-      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
-      integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
-      crossorigin="anonymous"
-    ></script>
-    <link rel="stylesheet" href="assets/css/style.css" />
+<head>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+	<link rel="stylesheet"
+		href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/css/bootstrap.min.css" />
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" />
+	<!-- CSS only -->
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+		integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous" />
 
-    <title>Gwen Recommends</title>
-  </head>
+	<!-- JS, Popper.js, and jQuery -->
+	<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+		integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
+	</script>
+	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+		integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
+	</script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+		integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous">
+	</script>
+	<link rel="stylesheet" href="assets/css/style.css" />
 
-  <body>
-    <header>
-      <div class="row no-gutters banner-border bg-color-name-title">
-        <a class="col-lg-4 bannerside" href="index.html">
-          <img class="crowlogo" src="../assets/images/crow5.png" alt="Crow"
+	<title>Gwen Recommends</title>
+</head>
+
+<body>
+	<header>
+		<div class="row no-gutters banner-border bg-color-name-title">
+			<a class="col-lg-4 bannerside" href="index.html">
+				<img class="crowlogo" src="../assets/images/crow5.png" alt="Crow"
         /></a>
-        <div class="col-lg-4">
-          <div class="row no-gutters">
-            <div class="col heading">
-              <h1 class="name">Gwen Recommends...</h1>
-              <h2 class="title hidden-small">Shinies!</h2>
-            </div>
-          </div>
+				<div class="col-lg-4">
+					<div class="row no-gutters">
+						<div class="col heading">
+							<h1 class="name">Gwen Recommends...</h1>
+							<h2 class="title hidden-small">Shinies!</h2>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-4 bannerside">
+					<img class="crowlogo2" src="../assets/images/crow6.png" alt="Crow" />
         </div>
-        <div class="col-lg-4 bannerside">
-          <img class="crowlogo2" src="../assets/images/crow6.png" alt="Crow" />
-        </div>
-      </div>
-    </header>
+				</div>
+	</header>
 
-    <section class="container-fluid">
-      <!--youtube api code AIzaSyAF1RbKQjIZTyIJP0wSBp2LwtiP1aEIjy4-->
-      <div class="row no-gutter">
-        <!--Start of side menu, next line-->
-        <div
-          class="col-md-4 col-lg-3 bg-color-side-section sidemenu-border section-column"
-        >
-          <div class="row no-gutter">
-            <div class="col-12">
-              <h3 id="side-section-heading">
-                Where The Crow Flies
-                <i class="fa fa-angle-down hidden"></i>
-              </h3>
-            </div>
-          </div>
-          <div id="side-menu">
-            <div class="side-section-item">
-              <div class="col-12">
-                <a href="index.html" class="side-link">
-                  <h4 class="side-section-category">
-                    Nest
-                  </h4>
-                </a>
-              </div>
-            </div>
-            <div class="side-section-item">
-              <div class="col-12">
-                <a href="places.html" class="side-link">
-                  <h4 class="side-section-category">
-                    Places To Go
-                  </h4>
-                </a>
-              </div>
-            </div>
-            <div class="side-section-item">
-              <div class="col-12">
-                <a href="shinies.html" class="side-link">
-                  <h4 class="side-section-category current-page-category">
-                    Shinies
-                  </h4>
-                </a>
-              </div>
-            </div>
-            <div class="side-section-item">
-              <div class="col-12">
-                <a href="cawntactme.html" class="side-link">
-                  <h4 class="side-section-category">
-                    Cawntact Me
-                    <span class="sr-only">Contact me</span>
-                  </h4>
-                </a>
-              </div>
-            </div>
-          </div>
-        </div>
-        <!--End of side menu-->
-        <div class="col-md-8 col-lg-9 bg-color-main-section section-column">
-          <!--Start of main section-->
-          <h3 class="shiny-heading">What I've Found and Where!</h3>
+	<section class="container-fluid">
+		<!--youtube api code AIzaSyAF1RbKQjIZTyIJP0wSBp2LwtiP1aEIjy4-->
+		<div class="row no-gutter">
+			<!--Start of side menu, next line-->
+			<div class="col-md-4 col-lg-3 bg-color-side-section sidemenu-border section-column">
+				<div class="row no-gutter">
+					<div class="col-12">
+						<h3 id="side-section-heading">
+							Where The Crow Flies
+							<i class="fa fa-angle-down hidden"></i>
+						</h3>
+					</div>
+				</div>
+				<div id="side-menu">
+					<div class="side-section-item">
+						<div class="col-12">
+							<a href="index.html" class="side-link">
+								<h4 class="side-section-category">
+									Nest
+								</h4>
+							</a>
+						</div>
+					</div>
+					<div class="side-section-item">
+						<div class="col-12">
+							<a href="places.html" class="side-link">
+								<h4 class="side-section-category">
+									Places To Go
+								</h4>
+							</a>
+						</div>
+					</div>
+					<div class="side-section-item">
+						<div class="col-12">
+							<a href="shinies.html" class="side-link">
+								<h4 class="side-section-category current-page-category">
+									Shinies
+								</h4>
+							</a>
+						</div>
+					</div>
+					<div class="side-section-item">
+						<div class="col-12">
+							<a href="cawntactme.html" class="side-link">
+								<h4 class="side-section-category">
+									Cawntact Me
+									<span class="sr-only">Contact me</span>
+								</h4>
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!--End of side menu-->
+			<div class="col-md-8 col-lg-9 bg-color-main-section section-column">
+				<!--Start of main section-->
+				<h3 class="shiny-heading">What I've Found and Where!</h3>
 
-          <div class="row">
-            <div class="col-12">
-              <p class="shiny-textbox">
-                This page is the odds and bobs I've found that appeal to me on
-                some level. Whether I find them fun, interesting, useful,
-                thought provoking or something else all together, some part of
-                my crow brain found value in keeping these and now sharing them
-                with you. I hope you enjoy. If not that's ok too. Different
-                strokes for different folks and all that. And remember I'm just
-                a person on the internet, please always do your own research!
-              </p>
+				<div class="row">
+					<div class="col-12">
+						<p class="shiny-textbox">
+							This page is the odds and bobs I've found that appeal to me on
+							some level. Whether I find them fun, interesting, useful,
+							thought provoking or something else all together, some part of
+							my crow brain found value in keeping these and now sharing them
+							with you. I hope you enjoy. If not that's ok too. Different
+							strokes for different folks and all that. And remember I'm just
+							a person on the internet, please always do your own research!
+						</p>
 
-              <h4 class="shiny-heading">Táin Bó Cuailnge</h4>
-              <div class="shiny-textbox">
-                <p>
-                On my other page,
-                <a href="places.html" class="shiny-para-link">Places To Go</a>
-                , you'll see one of the places I have listed is Rathcroghan. In
-                the description, quoted from the Rathcroghan Visitor Page,
-                you'll see mention of the Táin Bó Cuailnge, or Cattle Raid of
-                Cooley referenced. While I heard of Rathcroghan last year, I've
-                only started learning more about it, the surrounding area, and
-                the Táin more recently and mostly through the youtube page, blog
-                and Irish Pagan School of Lora O'Brien. Linked below is a
-                reading of the Táin Bó Cuailnge, with some commentary. It is an
-                ongoing work, and labour of love for Irish author and Irish
-                Pagan Priest Lora O'Brien, meaning it may not be complete by the
-                time you see this page. If you are curious to read ahead the
-                sources are shared. I hope you enjoy, and if you do please check
-                out the other stuff on Lora's pages, and you know, the regular
-                youtube stuff of liking, subscribing, and sharing. 
-                </p>
-                <div class="shiny-video">             
-                <iframe
-                  width="560"
-                  height="315"
-                  src="https://www.youtube.com/embed/WNGgK03bdww"
-                  frameborder="0"
-                  allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-                  allowfullscreen
-                ></iframe>
-                </div>
-                <p>
-                You can find more of Lora O'Brien on <a href="https://www.youtube.com/c/LoraOBrienIRL/featured" target="_blank" class="shiny-para-link">Youtube</a>, 
-                <a href="https://www.facebook.com/LoraOBrienInk/" target="_blank" class="shiny-para-link">Facebook</a>,
-                <a href="https://www.instagram.com/accounts/login/?next=/your.irish.connection/%3Fhl%3Den" target="_blank" class="shiny-para-link">Instagram</a>
-                <a href="https://loraobrien.ie/blog/" target="_blank" class="shiny-para-link">their blog</a>, 
-                or <a href="https://irishpaganschool.com/" target="_blank" class="shiny-para-link">The Irish Pagan School</a>. 
-              </p>
-              </div>
+						<h4 class="shiny-heading">Táin Bó Cuailnge</h4>
+						<div class="shiny-textbox">
+							<p>
+								On my other page,
+								<a href="places.html" class="shiny-para-link">Places To Go</a>
+								, you'll see one of the places I have listed is Rathcroghan. In
+								the description, quoted from the Rathcroghan Visitor Page,
+								you'll see mention of the Táin Bó Cuailnge, or Cattle Raid of
+								Cooley referenced. While I heard of Rathcroghan last year, I've
+								only started learning more about it, the surrounding area, and
+								the Táin more recently and mostly through the youtube page, blog
+								and Irish Pagan School of Lora O'Brien. Linked below is a
+								reading of the Táin Bó Cuailnge, with some commentary. It is an
+								ongoing work, and labour of love for Irish author and Irish
+								Pagan Priest Lora O'Brien, meaning it may not be complete by the
+								time you see this page. If you are curious to read ahead the
+								sources are shared. I hope you enjoy, and if you do please check
+								out the other stuff on Lora's pages, and you know, the regular
+								youtube stuff of liking, subscribing, and sharing.
+							</p>
+							<div class="shiny-video">
+								<iframe width="560" height="315" src="https://www.youtube.com/embed/WNGgK03bdww"
+									frameborder="0"
+									allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+									allowfullscreen></iframe>
+							</div>
+							<p>
+								You can find more of Lora O'Brien on <a
+									href="https://www.youtube.com/c/LoraOBrienIRL/featured" target="_blank"
+									class="shiny-para-link">Youtube</a>,
+								<a href="https://www.facebook.com/LoraOBrienInk/" target="_blank"
+									class="shiny-para-link">Facebook</a>,
+								<a href="https://www.instagram.com/accounts/login/?next=/your.irish.connection/%3Fhl%3Den"
+									target="_blank" class="shiny-para-link">Instagram</a>
+								<a href="https://loraobrien.ie/blog/" target="_blank" class="shiny-para-link">their
+									blog</a>,
+								or <a href="https://irishpaganschool.com/" target="_blank" class="shiny-para-link">The
+									Irish Pagan School</a>.
+							</p>
+						</div>
 
-              <h4 class="shiny-heading">Future Learn</h4>
-              <p class="shiny-textbox">
-                One of the more positive side effects of the socially-distant,
-                stay-home, culture that has developed in response to the Covid
-                crisis is the increased ability to access things online, and the
-                highlighting of things that were already there. Many of these at
-                low costs or free. One of the ones I found was Future Learn.
-                Because I'm currently in a new area with a unique culture and
-                language that differs from what I've always known, I had seeked
-                out places to learn more and was recommended
-                <a
-                  href="https://www.futurelearn.com/courses/irish-language"
-                  target="_blank"
-                  class="shiny-para-link"
-                  >Irish 101: An Introduction to Irish Langugage</a
-                >
-                and Culture course. This course is free from Dublin City
-                University through Future Learn.
+						<h4 class="shiny-heading">Future Learn</h4>
+						<p class="shiny-textbox">
+							One of the more positive side effects of the socially-distant,
+							stay-home, culture that has developed in response to the Covid
+							crisis is the increased ability to access things online, and the
+							highlighting of things that were already there. Many of these at
+							low costs or free. One of the ones I found was Future Learn.
+							Because I'm currently in a new area with a unique culture and
+							language that differs from what I've always known, I had seeked
+							out places to learn more and was recommended
+							<a href="https://www.futurelearn.com/courses/irish-language" target="_blank"
+								class="shiny-para-link">Irish 101: An Introduction to Irish Langugage</a>
+							and Culture course. This course is free from Dublin City
+							University through Future Learn.
 
-                <br />
-                <br />
+							<br />
+							<br />
                 Don't forget to check out what else is available through
-                <a
-                  href="https://www.futurelearn.com/"
-                  target="_blank"
-                  class="shiny-para-link"
-                >
-                  Future learn</a
-                >
-                as it changes frequently.
-              </p>
+							<a href="https://www.futurelearn.com/" target="_blank" class="shiny-para-link">
+								Future learn</a>
+							as it changes frequently.
+						</p>
 
-              <h4 class="shiny-heading">Books- Emma Dean</h4>
-              <p class="shiny-textbox">
-                One of my current favorite authors is Emma Dean. Not only for
-                the wonderful, indepth characters and worlds she has created but
-                for the inspiration she is as a person. Her writing genre of
-                choice is primarily fantasy romance (witches, shifters and
-                demons, oh my), and science fantasy fiction romance. Though I
-                have not read her Draga series (intrigue with intriguing
-                aliens), yet, I have read most of her other works in the other
-                universe she has created. In her works, which are 18+, she
-                touches on many sensitive and relavent topics that divide and
-                bring us together through the lens of her works. These are
-                including but not limited to mental health, trauma,
-                perserverance, constructed divisions people make between
-                themselves, and what makes family family. And of course love, I
-                mean, they <em>are</em> romance, though it's not just romantic
-                love that's explored.
-                <br />
-                <br />
+						<h4 class="shiny-heading">Books- Emma Dean</h4>
+						<p class="shiny-textbox">
+							One of my current favorite authors is Emma Dean. Not only for
+							the wonderful, indepth characters and worlds she has created but
+							for the inspiration she is as a person. Her writing genre of
+							choice is primarily fantasy romance (witches, shifters and
+							demons, oh my), and science fantasy fiction romance. Though I
+							have not read her Draga series (intrigue with intriguing
+							aliens), yet, I have read most of her other works in the other
+							universe she has created. In her works, which are 18+, she
+							touches on many sensitive and relavent topics that divide and
+							bring us together through the lens of her works. These are
+							including but not limited to mental health, trauma,
+							perserverance, constructed divisions people make between
+							themselves, and what makes family family. And of course love, I
+							mean, they <em>are</em> romance, though it's not just romantic
+							love that's explored.
+							<br />
+							<br />
                 Want to know more? Check her out on
-                <a
-                  href="https://www.facebook.com/emmadeanromance/"
-                  target="_blank"
-                  class="shiny-para-link"
-                >
-                  facebook</a
-                >, and her work on
-                <a
-                  href="https://www.goodreads.com/author/show/16933633.Emma_Dean"
-                  target="_blank"
-                  class="shiny-para-link"
-                  >goodreads</a
-                >, and
-                <a
-                  href="https://www.amazon.co.uk/Emma-Dean/e/B073Z3XZ4X/ref=dp_byline_cont_ebooks_1"
-                  target="_blank"
-                  class="shiny-para-link"
-                >
-                  amazon.co.uk</a
-                >,
-                <a
-                  href="https://www.amazon.ca/s?i=digital-text&rh=p_27%3AEmma+Dean&s=relevancerank&text=Emma+Dean&ref=dp_byline_sr_ebooks_1"
-                  target="_blank"
-                  class="shiny-para-link"
-                >
-                  amazon.ca</a
-                >. or
-                <a
-                  href="https://www.amazon.com/Emma-Dean/e/B073Z3XZ4X?ref=sr_ntt_srch_lnk_2&qid=1594003442&sr=8-2"
-                  target="_blank"
-                  class="shiny-para-link"
-                >
-                  amazon.com</a
-                >
-                .
+							<a href="https://www.facebook.com/emmadeanromance/" target="_blank" class="shiny-para-link">
+								facebook</a>, and her work on
+							<a href="https://www.goodreads.com/author/show/16933633.Emma_Dean" target="_blank"
+								class="shiny-para-link">goodreads</a>, and
+							<a href="https://www.amazon.co.uk/Emma-Dean/e/B073Z3XZ4X/ref=dp_byline_cont_ebooks_1"
+								target="_blank" class="shiny-para-link">
+								amazon.co.uk</a>,
+							<a href="https://www.amazon.ca/s?i=digital-text&rh=p_27%3AEmma+Dean&s=relevancerank&text=Emma+Dean&ref=dp_byline_sr_ebooks_1"
+								target="_blank" class="shiny-para-link">
+								amazon.ca</a>. or
+							<a href="https://www.amazon.com/Emma-Dean/e/B073Z3XZ4X?ref=sr_ntt_srch_lnk_2&qid=1594003442&sr=8-2"
+								target="_blank" class="shiny-para-link">
+								amazon.com</a>
+							.
 
-                <!-- add links!!!!                                                     Emma Dean Blurb. W/Goodreads Api. Ref Github api -->
-              </p>
-              <h4 class="places-heading">Sport Ireland</h4>
-              <p class="places-textbox">
-                While searching for a particular trail for this post I came on
-                section of a great site aimed towards getting people in Ireland
-                outdoors more. This includes walking, hiking, running and
-                cycling trail information, as well as info for adventure and
-                some water related sports. So instead of a particular trail I
-                found many. And while I’m going to aim for the top, the highest
-                point in Ireland, Carrauntoohil, in Co Kerry, eventually, I have
-                no problem admitting I am no where near ready for that hike yet.
-                So to work up to that goal I will likely be using the fantastic
-                resources provided by
-                <a
-                  href="https://www.sportireland.ie/outdoors/"
-                  target="_blank"
-                  class="shiny-para-link"
-                >
-                  Sport Ireland Outdoors</a
-                >.
-              </p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-    <footer class="container-fluid">
-      <div id="footer-details" class="row">
-        <div class="col-sm-3">
-          <a href="index.html" class="footer-link inline-block">
-            <h5 class="uppercase general-sub">Nest</h5>
-            <p class="footer-para">Fly Home!</p>
-          </a>
-        </div>
-        <div class="col-sm-3">
-          <a href="places.html" class="footer-link inline-block">
-            <h5 class="uppercase general-sub">Places To Go</h5>
-            <p class="footer-para">Flight Plans!</p>
-          </a>
-        </div>
-        <div class="col-sm-3">
-          <a href="shiny.html" class="footer-link inline-block">
-            <h5 class="uppercase general-sub">Shinies</h5>
-            <p class="footer-para">Thingamabobs!</p>
-          </a>
-        </div>
-        <div class="col-sm-3">
-          <a href="cawntactme.html" class="footer-link inline-block">
-            <h5 class="uppercase general-sub">
-              Cawntact Me <span class="sr-only">Contact Me</span>
-            </h5>
-            <p class="footer-para">Drop me a line!</p>
-          </a>
-          <!-- 
+							<!-- add links!!!!                                                     Emma Dean Blurb. W/Goodreads Api. Ref Github api -->
+						</p>
+						<h4 class="places-heading">Sport Ireland</h4>
+						<p class="places-textbox">
+							While searching for a particular trail for this post I came on
+							section of a great site aimed towards getting people in Ireland
+							outdoors more. This includes walking, hiking, running and
+							cycling trail information, as well as info for adventure and
+							some water related sports. So instead of a particular trail I
+							found many. And while I’m going to aim for the top, the highest
+							point in Ireland, Carrauntoohil, in Co Kerry, eventually, I have
+							no problem admitting I am no where near ready for that hike yet.
+							So to work up to that goal I will likely be using the fantastic
+							resources provided by
+							<a href="https://www.sportireland.ie/outdoors/" target="_blank" class="shiny-para-link">
+								Sport Ireland Outdoors</a>.
+						</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<footer class="container-fluid">
+		<div id="footer-details" class="row">
+			<div class="col-sm-3">
+				<a href="index.html" class="footer-link inline-block">
+					<h5 class="uppercase general-sub">Nest</h5>
+					<p class="footer-para">Fly Home!</p>
+				</a>
+			</div>
+			<div class="col-sm-3">
+				<a href="places.html" class="footer-link inline-block">
+					<h5 class="uppercase general-sub">Places To Go</h5>
+					<p class="footer-para">Flight Plans!</p>
+				</a>
+			</div>
+			<div class="col-sm-3">
+				<a href="shiny.html" class="footer-link inline-block">
+					<h5 class="uppercase general-sub">Shinies</h5>
+					<p class="footer-para">Thingamabobs!</p>
+				</a>
+			</div>
+			<div class="col-sm-3">
+				<a href="cawntactme.html" class="footer-link inline-block">
+					<h5 class="uppercase general-sub">
+						Cawntact Me <span class="sr-only">Contact Me</span>
+					</h5>
+					<p class="footer-para">Drop me a line!</p>
+				</a>
+				<!-- 
           <ul class="list-inline social-links">
                                                                                                          Not ready to share personal social links and no pro social links to share yet. Social media links left for when that changes.
             <li class="list-inline-item">
@@ -377,19 +328,17 @@
               </a>
             </li>
           </ul> -->
-        </div>
-        <div class="col-sm-3">
-          <a href="https://myoctocat.com/" target="_blank"
-            ><i
+			</div>
+			<div class="col-sm-3">
+				<a href="https://myoctocat.com/" target="_blank"><i
               class="fas fa-crow social-icon social-icon-crow"
               aria-hidden="true"
-            ></i
-            ><span class="sr-only">SecretShiny</span></a
-          >
-        </div>
-      </div>
-    </footer>
-  </body>
-  <script src="assets/js/jquery-3.5.1.js"></script>
-  <script src="assets/js/my_script.js"></script>
+            ></i><span class="sr-only">SecretShiny</span></a>
+			</div>
+		</div>
+	</footer>
+</body>
+<script src="assets/js/jquery-3.5.1.js"></script>
+<script src="assets/js/my_script.js"></script>
+
 </html>

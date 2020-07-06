@@ -5,15 +5,15 @@
 /*--------------------------------------------Colors and backgrounds*/
 
 html {
-    background-color: #2e3e12;
+  background-color: #2e3e12;
 }
 
 body {
-    background-image: url("../images/forestpath.jpg");
+  background-image: url("../images/forestpath.jpg");
   background-position: center;
   background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
+  background-size: cover;
+  background-attachment: fixed;
   min-height: 100%;
 }
 
@@ -313,15 +313,14 @@ footer {
   width: 70%;
 }
 
-
 .nest-para-link {
-    text-decoration: none;
-    color: #ffe429;
+  text-decoration: none;
+  color: #ffe429;
 }
 
 .nest-para-link:hover {
-    text-decoration: none;
-    color: chartreuse;
+  text-decoration: none;
+  color: chartreuse;
 }
 
 /*-----------------------------------------------------------Shinies*/
@@ -358,16 +357,16 @@ footer {
 }
 
 .shiny-para-link {
-    text-decoration: none;
-    color: #ffe429;
+  text-decoration: none;
+  color: #ffe429;
 }
 
 .shiny-para-link:hover {
-    text-decoration: none;
-    color: chartreuse;
+  text-decoration: none;
+  color: chartreuse;
 }
 .shiny-video {
-    text-align: center;                         /*div is not text but content aligns to the center with text-align*/
+  text-align: center; /*div is not text but content aligns to the center with text-align*/
 }
 /*-----------------------------------------------------------places*/
 
@@ -403,31 +402,31 @@ footer {
 }
 
 .wish-link {
-    text-decoration: none;
-    color: #7fff00;
+  text-decoration: none;
+  color: #7fff00;
 }
 
 .wish-link:hover {
-    text-decoration: none;
-    color: rgb(20, 228, 210);
+  text-decoration: none;
+  color: rgb(20, 228, 210);
 }
 
 .places-para-link {
-    text-decoration: none;
-    color: #ffe429;
+  text-decoration: none;
+  color: #ffe429;
 }
 
 .places-para-link:hover {
-    text-decoration: none;
-    color: chartreuse;
+  text-decoration: none;
+  color: chartreuse;
 }
 .places-quote {
-    width: 80%;
-    text-align: center;
-    margin: auto;
+  width: 80%;
+  text-align: center;
+  margin: auto;
 }
 .places-video {
-    text-align: center;                         /*div is not text but content aligns to the center with text-align*/
+  text-align: center; /*div is not text but content aligns to the center with text-align*/
 }
 /*-----------------------------------------------------------Cawntact*/
 
@@ -476,11 +475,11 @@ button[type="submit"] {
 }
 
 .btn-secondary {
-    border-color:#271b08;
+  border-color: #271b08;
 }
 .btn-secondary:hover {
-    background-color: chartreuse;
-    color:black;
+  background-color: chartreuse;
+  color: black;
 }
 
 /*-----------------------------------------------------------Current*/
@@ -518,16 +517,16 @@ button[type="submit"] {
     display: none;
   }
   p.footer-para {
-      display: none;
+    display: none;
   }
   .col-sm-3 {
-      border-bottom-color: burlywood;
-      text-align: center;
+    border-bottom-color: burlywood;
+    text-align: center;
   }
 }
 @media (min-width: 576px) {
-    .social-icon-crow {
-      display: none;
+  .social-icon-crow {
+    display: none;
   }
 }
 
@@ -553,14 +552,13 @@ button[type="submit"] {
 /*----------------------------------------------------------- APIs */
 
 #map {
-    height: 300px;
-    width: 60%;
-    margin: 0 auto;
+  height: 300px;
+  width: 60%;
+  margin: 0 auto;
 }
-
 
 /*------------------------------------------------------------ 404 */
 
 .lost-crow {
-    width: 50%;
+  width: 50%;
 }
