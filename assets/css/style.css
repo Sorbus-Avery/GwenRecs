@@ -117,7 +117,7 @@ header {
   margin-bottom: 75px;
   color: cornsilk;
   background-color: #2e3e1291;
-  width: fit-content;
+  width: inherit;
   border-style: outset;
   border-color: #647d38;
   margin-left: auto;
@@ -282,50 +282,7 @@ footer {
 
 /* ----------------------------------------Main Section Nest/Home */
 
-.main-section-heading {
-  margin-bottom: 15px;
-  background-color: #63822ab8;
-  color: cornsilk;
-  font-family: "Lora", sans-serif;
-  padding: 5px;
-  border-color: #314211fa;
-  border-style: solid;
-}
-
-.main-section-para {
-  background-color: #e8e4a187;
-  color: Black;
-  padding: 5px;
-  text-align: left;
-  padding: 5px;
-  font-family: "open sans";
-  border-color: #314211fa;
-  border-style: solid;
-}
-
-.section-heading {
-  font-family: "Lora", sans-serif;
-  font-weight: 300;
-  margin-top: 25px;
-  margin-bottom: 40px;
-  color: cornsilk;
-  background-color: #63491db8;
-  width: fit-content;
-  padding: 5px;
-  margin-left: auto;
-  margin-right: auto;
-  border-color: #3e2e12;
-  border-style: solid;
-}
-
-.nest-text {
-  margin-left: 10px;
-  margin-right: 10px;
-}
-
-/*-----------------------------------------------------------Serious shinies   Closing section instead of deleting it as I plan to include it in the future
-
-.serious-heading {
+.nest-heading {
   text-align: center;
   font-family: "Lora", sans-serif;
   font-weight: 300;
@@ -340,7 +297,8 @@ footer {
   border-color: #3e2e12;
   border-style: solid;
 }
-.serious-textbox {
+
+.nest-textbox {
   font-family: "Open Sans", sans-serif;
   font-weight: 300;
   padding: 5px;
@@ -352,9 +310,21 @@ footer {
   margin-bottom: 40px;
   margin-left: auto;
   margin-right: auto;
+  width: 70%;
 }
-                                                                                                */
-/*-----------------------------------------------------------Fun Shinies*/
+
+
+.nest-para-link {
+    text-decoration: none;
+    color: #ffe429;
+}
+
+.nest-para-link:hover {
+    text-decoration: none;
+    color: chartreuse;
+}
+
+/*-----------------------------------------------------------Shinies*/
 
 .shiny-heading {
   text-align: center;
