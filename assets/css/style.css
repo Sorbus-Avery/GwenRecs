@@ -55,11 +55,6 @@ h4 {
 .inline-block {
   display: inline-block;
 }
-/*
-.row-table {
-  display: table;
-}
-*/
 .section-column {
   display: table-cell;
   padding: 0 30px 30px;
@@ -163,14 +158,14 @@ header {
   text-align: left;
   padding-top: 5px;
   padding-bottom: 5px;
-  background-color: #63491d8a; /* #6a861ab3;  #334f3a4f */
+  background-color: #63491d8a; 
   color: cornsilk;
   font-size: larger;
   font-family: "Open Sans", sans-serif;
 }
 
 .side-section-category:hover {
-  background-color: #364815; /*Note: consider keeping the more dynamic: #58151b;*/
+  background-color: #364815; 
   color: cornsilk;
 }
 
@@ -450,7 +445,7 @@ footer {
   font-family: "Open Sans", sans-serif;
   font-weight: 300;
   padding: 5px;
-  margin-bottom: 20px; /*play with top/bottom margins   combine margins into 1 category?*/
+  margin-bottom: 20px; 
   color: cornsilk;
   background-color: #2e3e12cf;
   font-size: larger;
@@ -464,7 +459,7 @@ footer {
 .center-form {
   padding-top: 10px;
   margin: 0 auto;
-  max-width: 70%; /* change background color? leave? */
+  max-width: 70%; 
 }
 
 button[type="submit"] {
